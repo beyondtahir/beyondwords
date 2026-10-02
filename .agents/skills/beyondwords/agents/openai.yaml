@@ -1,0 +1,6 @@
+interface:
+  display_name: "Beyondwords"
+  short_description: "Research, create and review a book business"
+  default_prompt: "Use $beyondwords to help me develop and review my book project."
+policy:
+  allow_implicit_invocation: true

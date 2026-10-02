@@ -1,0 +1,31 @@
+# From a real browser observation to a researched choice
+
+Default to the current host's normal browser. `host-route` only chooses an observed tool; the host must invoke that actual tool. Record the outcome honestly. It does not start a browser, confer source rights or authenticate receipts. The optional raw Chromium adapter is a separate no-JavaScript reader. A technical timeout can justify the reader fallback; a CAPTCHA/access denial cannot. Failure history is source-scoped, receipts are immutable, and a later successful technical retry can restore normal-browser preference.
+
+## Permission-bound observation handoff
+
+Use operation `research` with these tasks through `beyondwords.py` or the scoped MCP dispatcher:
+
+1. `enable` and `access`: select the real project and current revision. Resolve collection/import, retention and derived-use rights before the source read. Use explicit URL scope and review expiry. Synthetic fixtures never authorize live collection.
+2. `browser-request`: fields `access_id`, `url`, `purpose` (`listing`, `review`, `sample`, `discovery`, `reference`), `operation` (`collect` or `import`) and `expected` (available `asin`, `format`, `marketplace` strings). The returned packet binds workspace/project/revision, permission record, source, purpose and edition. `performed:false` means nothing has been collected.
+3. Invoke the real host browser inside that scope. Retain only permitted content. Use a currently observed DOM/accessible-text method or approved screenshot capability. Read actual preview images for a visual book. Never serialize browser storage, cookies, request headers or an account page. If the host cannot export HTML, save actual text as text; do not reconstruct fake HTML fields to make extraction pass.
+4. `browser-import`: provide the returned `packet`, a `file` containing actual UTF-8 observations, and `receipt`. Optional `screenshot_file` supports bounded PNG/JPEG evidence (Pillow, already pinned). The receipt contains `host`, `tool`, `receipt_reference`, `observed_at`, actual `status`, `final_url`, `content_type` (`text/html` or `text/plain`), `body_sha256`, and explicit `scope`. Optional `redirects` lists observed URLs only; optional `screenshot_sha256` must match actual supplied bytes. Do not invent HTTP status or redirect information the host did not expose. For a failed read, omit `file`, use the empty-body SHA-256 and the actual failure status.
+5. Read the stored capture. Wrong/ambiguous edition, changed layout and text-only listing observations remain PARTIAL/unverified. Review/sample/reference captures do not become verified listings. Blocked/error receipts preserve their status and cannot contribute extracted ranks. Body, optional image and receipt commit in the same revision transaction. A pending request must be regenerated after moving the project to another workspace. Retry against a changed revision is rejected; reconcile before creating a new packet.
+
+This boundary checks declared scope and retained bytes **after** the host observation. It cannot retroactively enforce the host browser's network behavior, discover unreported redirects, prove the host read the page, or authenticate a permission declaration. Use the host's own browser protections and review the observed destination before reading. No autonomous cross-host RPC, stealth, login or challenge bypass is provided.
+
+The isolated raw `capture` and `discover` tasks remain available for their documented scopes. Neither route guarantees access to Amazon, reviews or previews. Official-policy evidence still uses the separate policy import/capture/review workflow; a generic reference capture never silently changes a publishing check.
+
+## Five choices, with partial work preserved
+
+`guide options` accepts 1–5 cards as work in progress. It now computes current coverage. `guide choose`, production prerequisites and resume prevent partial/stale coverage from becoming a completed research decision. Old snapshots stay unchanged and readable; missing new fields are incomplete, not manufactured.
+
+Each completed card adds `niche`, `proposed_book`, `fact_quotes` and `inspections` to the existing fields. `fact_quotes` contains one exact supporting excerpt per observed fact, present in that fact's `fact_sources`. Each inspection has `evidence_id`, `kind` (`listing`, `review`, `sample`), actual `scope` and exact `quote`. Its source supplies `work_id`, `product_id`, `selected_product_id`, `edition_verified:true`, marketplace and format, in addition to permission/freshness fields. Duplicate source IDs and contradictory edition/work identities are rejected.
+
+The local coverage floor is three distinct competitor works with listing, review and sample inspections tied to the **same edition, marketplace and format** for each work. This is a conservative product operating rule, not a retailer rule or statistical proof of demand. Actual review sampling should include different ratings, less-established competitors and contrary evidence; do not infer themes from aggregate ratings. Sample scope limits every gap claim. For visual books, record actual image observations and retained image references where permitted; a text-only fixture does not establish visual evaluation.
+
+An undecided author needs five distinct niches with distinct proposed books. For an author who explicitly chose a niche, `guide set-niche` records that actual choice and decision basis without inventing prior research. It leads directly to five distinct ideas inside that niche. Replacing a niche invalidates dependent choices, persona and sample. A chosen niche is not a demand-validation claim.
+
+Use `research_coverage` in the guide response for current missing work. Never translate `choice_ready` into a sales prediction, independently verified gap, originality certificate or publication approval. Retained excerpts support inspection; the host must still judge whether they support the interpretation. Costs, reader response and financial inputs remain explicit unknowns until researched. Present five brief choices, one reasoned recommendation for testing and one user choice—not an unsolicited report.
+
+Synthetic evidence must remain separate from real recommendations; source hashes and successful imports do not establish market demand.

@@ -1,0 +1,740 @@
+{
+  "version": "1.1.0",
+  "files": [
+    {
+      "path": ".agents/skills/beyondwords/LICENSE.txt",
+      "sha256": "b99f40aee38a2ace52c8593189c2d7b5dab905ce774445e3a6dc041a2f987115",
+      "bytes": 1081
+    },
+    {
+      "path": ".agents/skills/beyondwords/SKILL.md",
+      "sha256": "4369e0a87b39d172f9b1fb9fd2409ca9dc7463c36b23b23dfeb09e474e6bbd6c",
+      "bytes": 13135
+    },
+    {
+      "path": ".agents/skills/beyondwords/agents/openai.yaml",
+      "sha256": "3db394fde731899194dc5bab305e796d5c6c8c0cfeb593de5a85a96b79920b41",
+      "bytes": 234
+    },
+    {
+      "path": ".agents/skills/beyondwords/assets/book-brief.md",
+      "sha256": "26ae57eaab1dafb6f66f0ccae90666bdb249661c8d38e517a08e7c7686623151",
+      "bytes": 478
+    },
+    {
+      "path": ".agents/skills/beyondwords/assets/contracts/AMAZON-ADS-MIT-LICENSE.txt",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "bytes": 1056
+    },
+    {
+      "path": ".agents/skills/beyondwords/assets/contracts/amazon-ads-sp-openapi.json",
+      "sha256": "2a88b88d78494245143378dffccb9dd1b6cf790001c9923e359da167b5b185f2",
+      "bytes": 234184
+    },
+    {
+      "path": ".agents/skills/beyondwords/assets/opportunity-brief.md",
+      "sha256": "ad493f1194c14c5973069010517fea11880b38e38ec79c34a10c404fe7916d62",
+      "bytes": 581
+    },
+    {
+      "path": ".agents/skills/beyondwords/assets/project-state-v2.schema.json",
+      "sha256": "d357e48968dbd038107ed6c3c368e755f0610b5dc7ad5cfe3aa0b3643ff6ed92",
+      "bytes": 13331
+    },
+    {
+      "path": ".agents/skills/beyondwords/assets/voice-profile.md",
+      "sha256": "0effc7de456b70d2ad8323b4ce4dbb0caba4512723a02a9d47ff805f3c75070f",
+      "bytes": 410
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/CREDITS.md",
+      "sha256": "7f229752efabdd7b9a85ead9cbbe604bea841784cba6a7c0a6563abdbd09ea87",
+      "bytes": 378
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/DOCUMENTATION.md",
+      "sha256": "f48518cd1a5ffa6420c7a00767d1c597ce4fe63bb6d7f4e3580425062101e629",
+      "bytes": 668
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-ads/MODULE.md",
+      "sha256": "f3be623ec966acac38929c6282d19c0f169e90e206600e468301486bc3e0dd15",
+      "bytes": 2188
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-covers/MODULE.md",
+      "sha256": "7e2bc912adb7cc99725856599eb767ebd9e95f983e9d9d287b0214b1bceca51f",
+      "bytes": 1742
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/MODULE.md",
+      "sha256": "520cc6969055fb8d7de00b6f6f79585f9481c00940603cd05b4353ae298e8a41",
+      "bytes": 1625
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/assets/fonts/Oswald-OFL.txt",
+      "sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652",
+      "bytes": 4483
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/assets/fonts/Oswald-Variable.ttf",
+      "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
+      "bytes": 172088
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/assets/fonts/PlayfairDisplay-OFL.txt",
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "bytes": 4449
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/assets/fonts/PlayfairDisplay-Variable.ttf",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "bytes": 300724
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/assets/kdp-upload-checklist.md",
+      "sha256": "883a2a7a1cea9df637ed6f2ca8ac06828502ee74fc208e538c3f4f63786c7b2f",
+      "bytes": 2415
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/references/audiobook.md",
+      "sha256": "d446baae475a850cbfca5d12f68aaa8481839d192f2bd8c0a7fc56a12fa409a5",
+      "bytes": 2579
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/references/canva-workflow.md",
+      "sha256": "980e8281cef96aabd8f254723f25b76d08893d8e4a71434ab9f6572f0dd69ad6",
+      "bytes": 3657
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/references/kdp-guide.md",
+      "sha256": "a075d615900454dcde1fc277dcb2caddfb6b5bdeeded2573c69d5b6ff226e958",
+      "bytes": 1428
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/references/lulu-guide.md",
+      "sha256": "6cae3abd03f48b3fd9f19273293c487ecb6732ac212ca38754535639a1d1dac1",
+      "bytes": 2231
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/references/platform-compatibility.md",
+      "sha256": "0c54160adbfe1b806027ebcb8a77a2fef8c9d0cd5a7cab93ba89ed3fb06d6543",
+      "bytes": 695
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/references/royalty-and-specs.md",
+      "sha256": "894410f699bf7ff2db17add600748e3ddb4b82b9d938bf1a6c8c3b1aad59b0d2",
+      "bytes": 3969
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/scripts/bw_compose.py",
+      "sha256": "c919e884bbeee59e524dd2a7d63127fc9bb6c5135ebe3a4896932b8241024628",
+      "bytes": 7848
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/scripts/bw_cover_geo.py",
+      "sha256": "dd9d91673492e5f608404663b027207ac20a3528a9445f28e427a70647651d82",
+      "bytes": 3396
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/scripts/bw_covers.py",
+      "sha256": "449fddccef98472f5db10714646b1916528c74ca1b73f48453e85cf8aa135e25",
+      "bytes": 6887
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/scripts/bw_produce.py",
+      "sha256": "6aa7bd05cdbcb470882649746a87047ce8519cb87fe4e7d190bafec6c413266b",
+      "bytes": 22993
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/scripts/bw_royalty.py",
+      "sha256": "74cc64a81a67461db850e8ccdbe77469a58243b676ad40dae088eaa540935a91",
+      "bytes": 5808
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-research/MODULE.md",
+      "sha256": "d7dd6b3a971b602767bc245c35ad683d51600e760a1867e3a9f22c54ebad1f27",
+      "bytes": 1960
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-research/references/niche-validation.md",
+      "sha256": "480866f6d4a752e0c1d24abcafaf78098d7ac7bb1b5f06763b1c26cbabc11bf3",
+      "bytes": 742
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-research/scripts/bw_amazon.py",
+      "sha256": "5828553696290d6368610f16ce07b4bb6abdb940672c42668ce7b10865134285",
+      "bytes": 16505
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-research/scripts/bw_discover.py",
+      "sha256": "f8a9362dce4312897636a81984852707b47d516f85da959ec732d342e306f5e3",
+      "bytes": 12668
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-research/scripts/bw_niche.py",
+      "sha256": "2c6d6370a766fda14807af35e01c9939fc6b6ba3c14be3af5578b34608c529a2",
+      "bytes": 2104
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-research/scripts/bw_sales.py",
+      "sha256": "b1370390e96f7937f24a037451e7ebd3015797a3f3181688cc444a5a543c7f2e",
+      "bytes": 1099
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-research/scripts/bw_tracker.py",
+      "sha256": "1bbac89d2b32f959dfc77c90ce5b7467f4338ff0d5f59cf8810b55e2304753ea",
+      "bytes": 5063
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-validator/MODULE.md",
+      "sha256": "273fd0b625ea94c1b9bf38243cb4c3488576e4355f0d4e7b7466e5db632a0f4b",
+      "bytes": 1299
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-validator/references/launch-marketing.md",
+      "sha256": "8c35b4ddf496389bb422ee3caa70b1c10cfb88eb6c93b699e0bf5c0057df52fe",
+      "bytes": 893
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-validator/references/royalty-and-specs.md",
+      "sha256": "894410f699bf7ff2db17add600748e3ddb4b82b9d938bf1a6c8c3b1aad59b0d2",
+      "bytes": 3969
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-validator/references/sellability-and-banrisk.md",
+      "sha256": "1212bf9d624bd7cfd6c87e9ba970a8ac372fea54edda641188795417abdea5b8",
+      "bytes": 640
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-validator/scripts/bw_audit.py",
+      "sha256": "0712cbd7c4d3deafcc0848b7c89208406ba6c9bf92d50d173d4a021ef656915d",
+      "bytes": 8809
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-validator/scripts/bw_cover_geo.py",
+      "sha256": "dd9d91673492e5f608404663b027207ac20a3528a9445f28e427a70647651d82",
+      "bytes": 3396
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-validator/scripts/bw_lint.py",
+      "sha256": "a85db3bd7ccec31f1485c2f738675256148ee3d7b96145221104c35f55ebe83d",
+      "bytes": 8894
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-validator/scripts/bw_score.py",
+      "sha256": "37387e65aa1e47c1c690c611092ad81aa81eb3160488e5182e5c307b93927787",
+      "bytes": 904
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/MODULE.md",
+      "sha256": "05d2b8b8eae3c2a672cd6b334f31fdc4ad4eb912c424c5755c4f95c724a2a276",
+      "bytes": 1693
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/assets/book-spec-template.md",
+      "sha256": "417e8add9fcebdb8db36df30f1fbbae5f8b00a384fe6db0b83241c9b7ead58f7",
+      "bytes": 1666
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/assets/chapter-contract-template.md",
+      "sha256": "32a2993dd4ff6c27324a4685815b2d0bbc1a81123060bad89e4dbbc48f1a90c9",
+      "bytes": 1651
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/assets/outline-template.md",
+      "sha256": "2045530b282de2eccae5b64fe710b1d8a91dbc8a465bb872d65187bf98b82a7a",
+      "bytes": 1807
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/assets/story-bible-template.md",
+      "sha256": "0a4fa0e3e4dfec155dd58b9a734e1978df19d6d84f19a4b4d485fc73d14b8925",
+      "bytes": 1271
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/references/story-bible.md",
+      "sha256": "b0b6c1a0d19f12227fa89c4d6a83ad948f6de3ca643be0c858ea62272cbcd8fe",
+      "bytes": 2316
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/references/style-profiles.md",
+      "sha256": "7a2f8604fb43d1d817b93db285a58ef9cf42c47b314a269c1eb620923fac5e9f",
+      "bytes": 3611
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/references/writing-and-humanizing.md",
+      "sha256": "9015ee95fea0720b3bce1939785065710535736621579382a800ca007ced2fa2",
+      "bytes": 1312
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/scripts/bw_build.py",
+      "sha256": "e9ee14f293d91370d8b8e5aa67050ae50f615c8ffbb67fed21ee9c897e25e209",
+      "bytes": 5818
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/beyondwords-writer/scripts/bw_lint.py",
+      "sha256": "a85db3bd7ccec31f1485c2f738675256148ee3d7b96145221104c35f55ebe83d",
+      "bytes": 8894
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/bw_io.py",
+      "sha256": "aa85196b34bed5d478dc806128323958546e4b72b73e1c6b574d4ab1d04faae9",
+      "bytes": 629
+    },
+    {
+      "path": ".agents/skills/beyondwords/modules/beyondwords/chatgpt-gpt-instructions.md",
+      "sha256": "2c7d5ce58e1ea1c4ccbe1f470c57ecb4510e3a119d216c85d966beca23c96942",
+      "bytes": 533
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/00-routing.md",
+      "sha256": "2374347e60408689f465de92488c5c31c5698f26d4f9fdbc405c5de06830ec91",
+      "bytes": 1885
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/01-onboarding-personas.md",
+      "sha256": "e584a6bfe7afc1b0ca1b2f2daa00ccc329fea0f8d9dc5c97b071ee31e29b6af5",
+      "bytes": 1714
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/02-market-research.md",
+      "sha256": "cfe2c2627feca99e10cb4d25c8928ccd30e9b2c041bfd08b1ba00af507ca1716",
+      "bytes": 13673
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/03-writing.md",
+      "sha256": "ebc8b5a79620cf82e5ae454038f53d20f0714afa6c2b3f682130ff13e8e6512f",
+      "bytes": 2636
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/04-design-formatting.md",
+      "sha256": "eb4910d5ad41c5b5a207ba37ce4658b947ffb27ededffeb660c0afd06f98880e",
+      "bytes": 3039
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/05-policy-publishing.md",
+      "sha256": "ab23b4593fc8acac8fa18d0d783f6b31fe61a149e4b84216c849c46ae8b4bab0",
+      "bytes": 2393
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/06-marketing-economics.md",
+      "sha256": "2929b671eb468f113322b93747ab48af5da36624eff24629ab9992d436306978",
+      "bytes": 2050
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/07-browser.md",
+      "sha256": "4efcce0326e293264fb4e0ab323faf6fa39c85ab12f2adbfd6b40680846cb59c",
+      "bytes": 3123
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/08-evidence-quality.md",
+      "sha256": "2d1b328f8054220ce15dfbc486592577e1f23a69dd4f36886f1b33c782290cc5",
+      "bytes": 1900
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/09-tool-map.md",
+      "sha256": "1c79f68839871c91392a25e2986324afb7394e656791d428ef7cf4ea03f396ef",
+      "bytes": 1788
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/10-local-workflow.md",
+      "sha256": "badff09159fd14f3477429cbfaa8c6b93e9aba64a47d300cb14f951c2b527b92",
+      "bytes": 1060
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/11-research-workflow.md",
+      "sha256": "61721d47523d9934a882185c28c105def20ad5018b5860089d7024d7cca1dc4b",
+      "bytes": 3523
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/12-complete-workflow.md",
+      "sha256": "78f90dfc73198e7c34693723f0b4fbf98d9ed6bfaa62dfa84067e70ad9dd42a7",
+      "bytes": 8141
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/13-editorial-production.md",
+      "sha256": "8ff6496d1c01be02ed8f6f00c860fef7ef15a768e97a5495773aa506df311acc",
+      "bytes": 3917
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/14-hosts.md",
+      "sha256": "adb4d1d0e03cbe7835f4fdfc9b9d5ed4bf8573415fe408534c53820b12bea84d",
+      "bytes": 4508
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/15-book-routes.md",
+      "sha256": "0692188fe49c90744757ce2d14779d351fe735c68f3c1862f633429cb5ab7a8e",
+      "bytes": 1971
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/16-publishing-handoff.md",
+      "sha256": "2837c1ae9d3608bd73bf96f80ffe31159e3133a25d30fb4a9d7a657f5ea751f0",
+      "bytes": 2833
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/17-launch-and-reports.md",
+      "sha256": "8cafbfbb2fef63f0f495b3f0afa8899574054149308b90752cea486503f0dafa",
+      "bytes": 3541
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/18-guided-journey.md",
+      "sha256": "5183361313784bfe8351d6e9403f0703b640a3c66f272e16287461fec343f235",
+      "bytes": 8165
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/19-specialist-tools.md",
+      "sha256": "fd41b92ce5629668d029fab666c5551815ec702ab7e1981a703a9ee71d59d8f3",
+      "bytes": 7223
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/20-connected-work.md",
+      "sha256": "52d4c458cbd1941b83948017e14ea91c278e60c5319c9e506d2373b15498a4f6",
+      "bytes": 6016
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/21-connected-runtime.md",
+      "sha256": "1893382233f56b33308bcc20a7feff32bfbf19e0b3036138e0856b5b2a35bff8",
+      "bytes": 13172
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/22-lifecycle.md",
+      "sha256": "63c57ae1e80245e34c1e16b7e11377c39a5fb96d4b4ac0f1cf91edcbca7f51f4",
+      "bytes": 16487
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/23-visual-production.md",
+      "sha256": "d6575b40b145e442f5edbdf00f3fcc794c58b73d213a3393a121a64a79669c96",
+      "bytes": 7096
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/24-manuscripts-and-story-memory.md",
+      "sha256": "d1fd907c936b2614e5a849bd00e3056a8cb097408923925f8ec5cd2802fa7e3d",
+      "bytes": 4937
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/25-editorial-handoff.md",
+      "sha256": "8ce333a0344a474242ddc8171fcd22d23f9314b6df37c17e1587576d3f2ec061",
+      "bytes": 3910
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/26-research-completion.md",
+      "sha256": "14bfbbc3944d6cdf4258529968aa870f3545455743052b5f7fa399b481dffc38",
+      "bytes": 6291
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/27-publisher-and-listing-quality.md",
+      "sha256": "d645fa8423b5b7bab8a8a144d6c3e58845aaca6e90271e5bdcbfd095bc6558f0",
+      "bytes": 8795
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/28-original-voice.md",
+      "sha256": "e8cb38b7611e05afaeb2f1fd44f79ffbe3cbf2c68ffe6991efa6d548b2119390",
+      "bytes": 3911
+    },
+    {
+      "path": ".agents/skills/beyondwords/references/29-amazon-ads-manager.md",
+      "sha256": "d7a8d3289eec632692f4c02d9222eb8879ad495255e6883101e5c0e3e7ccb782",
+      "bytes": 7391
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords.py",
+      "sha256": "908aea3432a8f9fe55c739c574b4ab5b1d92493b66694d0de4ea6e2cf9765d1e",
+      "bytes": 13349
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_amazon_ads.py",
+      "sha256": "f4fb58e5dfba9e54ef5fd234da7c69b08f7e0a5e4baab949cd96ef4a4d959fab",
+      "bytes": 31116
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_authoring.py",
+      "sha256": "90c2947d68392c9d45bfad281e9cbe8db8c0c4595cea24c5eb8a327219db6900",
+      "bytes": 9668
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_book.py",
+      "sha256": "60a3b610fc79f05635fa03fec1d0f26626e0301d2a16428b68ed90285eca723c",
+      "bytes": 33041
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_browser_handoff.py",
+      "sha256": "efa60560c80b502dc9508557b1c10985e8bb13254282be8f60a85db4e0e7ff64",
+      "bytes": 7010
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_business.py",
+      "sha256": "6c369d3ea492f4a5536772f4cadf3b71575fa1a5cfabb488f87617185b3a04a9",
+      "bytes": 9903
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_campaign.py",
+      "sha256": "9387c147aa8478d4a5b88a2fa32d5521403c6d354793e8c314f6e378c8a4ab31",
+      "bytes": 8297
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_coloring.py",
+      "sha256": "fd4365bf06521b8b0dcd89e2d84d98e926022beddd49f1f537c4beab0d738228",
+      "bytes": 9701
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_connected.py",
+      "sha256": "609423ab6cd51b03dab70295f7a19832599c0261236de8466d7f3a34e37c0cc3",
+      "bytes": 12047
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_desks.py",
+      "sha256": "b9cee2166b43b4c62883b2e6e52af23996351c3188856112788229d1c0696955",
+      "bytes": 11549
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_docx.py",
+      "sha256": "6e8754662156c3476ad5e1a4950afdcd6dfcb572edb445679d682c6096881134",
+      "bytes": 7786
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_editorial.py",
+      "sha256": "3b115dbac4537d037e6d2bb178560800022e64cf4f20f8b4ad8fd3574e9b968b",
+      "bytes": 10488
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_guide.py",
+      "sha256": "6670b088cc1f31c6ab5c7a6d46e88cb001bcf2cc66d8893859e788f5733ca704",
+      "bytes": 26770
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_hosts.py",
+      "sha256": "ac461b56089a48ab19be86ef08093e6c772076ec2a38760542be8d5b845c9e6b",
+      "bytes": 6206
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_lifecycle.py",
+      "sha256": "eef487718d6aed232cb773525087add61a1b2a41dc1784fc888794433240b79b",
+      "bytes": 22951
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_market.py",
+      "sha256": "331a6c7b325c4503c76028f37c56877d25f498205540c1b453b2ea340aed604a",
+      "bytes": 13051
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_mcp.py",
+      "sha256": "183b785bb4b67e66d460ffb831a379163b39d5b950cd3aa9702f0d17310bc896",
+      "bytes": 3762
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_monitor.py",
+      "sha256": "3c5e640c20de98c2f483aa38f45c37bcf096d99794d36fb38ba8cfe465f95561",
+      "bytes": 21098
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_production.py",
+      "sha256": "043ca2dfe5d96b0ec97447af2a6243da4f1950d7e2f80f0e1a7be1edf1d3a216",
+      "bytes": 16111
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_publisher.py",
+      "sha256": "e98316729a553865b42b25204be3a41b9335faf73c474bbac234e27a1b0dcfb2",
+      "bytes": 14775
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_publishing_checks.py",
+      "sha256": "5f38380351b5386d12c78d42f4f141baab49a1a4dee1fa9706eccbc0a33b8598",
+      "bytes": 10949
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_research_tools.py",
+      "sha256": "f373fff3db83c4bc84994285ede3063de85de1aa5193ddeb635ee3697d72fbda",
+      "bytes": 2922
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/beyondwords_visual.py",
+      "sha256": "672d77d6a19d6ea7ff00ee0fa2668d463d5aa632a35577741015d30a3e7ff964",
+      "bytes": 15937
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/publishing_browser.py",
+      "sha256": "f4021bfc8211968c7d408471c160f1587a44af33ac3a13e61fc3af0bea822d92",
+      "bytes": 6907
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/publishing_core.py",
+      "sha256": "5cc0339de2dfc54dc528505529acb1fee051adbad1189fdefff5d65fa5d194a9",
+      "bytes": 26676
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/publishing_extract.py",
+      "sha256": "35d06eac482010247b1c204907abd54b0839da3bcc3db761f20cc809bf0c4e02",
+      "bytes": 9710
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/publishing_project.py",
+      "sha256": "36decbb40ab87b70f28cdc458e42284daeec9e9d1f0961dfda7c47e47942a726",
+      "bytes": 42730
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/publishing_research.py",
+      "sha256": "277e057cb785fe84f5810e01b4a0d50fdcedec56cac522d48a97f2dc47eb6b68",
+      "bytes": 22627
+    },
+    {
+      "path": ".agents/skills/beyondwords/scripts/publishing_result.py",
+      "sha256": "997e9048c2bcef4d20822a2f380edfc4721c7ba1a4b9d8454284944d11694b87",
+      "bytes": 2088
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "be374f8da97f777a3ea0a974994b71046a4c07b17476a7cf38efae768594ed68",
+      "bytes": 233
+    },
+    {
+      "path": ".github/workflows/package.yml",
+      "sha256": "6bb84cd696ba16f9aacb92b98e5a8090d9f4ed7ea444b290b9f6e77c38244f6e",
+      "bytes": 673
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "26f57a9272e217977f9d63e78b09235454cc7e2384a6694213b35049e52b1934",
+      "bytes": 327
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "064e913970dc6d5fc2b2ca448048dc13ed9ec6229ee098e9d72231250eb3fc91",
+      "bytes": 325
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b99f40aee38a2ace52c8593189c2d7b5dab905ce774445e3a6dc041a2f987115",
+      "bytes": 1081
+    },
+    {
+      "path": "README.md",
+      "sha256": "b02364eac2736dfd74808011bb7de0fe2c7f6771359cdefa97949fdecbefda38",
+      "bytes": 12542
+    },
+    {
+      "path": "VERSION",
+      "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+      "bytes": 6
+    },
+    {
+      "path": "assets/beyondwords-banner.png",
+      "sha256": "84a4e356569642f103166a34f936d4fb9d72bad82da75731c11685afa60bafe2",
+      "bytes": 1300305
+    },
+    {
+      "path": "assets/beyondwords-how-it-works.gif",
+      "sha256": "e2db38d75da3d4e847724f643ba2af6c5b1e87d2e69ebd173018d3cc2544dc0e",
+      "bytes": 4352360
+    },
+    {
+      "path": "assets/beyondwords-how-it-works.mp4",
+      "sha256": "31c80382facbe1d35fffa9f54d8a42ebd52f88b5556cc9cfcb77fffec5274d20",
+      "bytes": 1651706
+    },
+    {
+      "path": "assets/beyondwords-logo.png",
+      "sha256": "20062895fde7fa46523b254f94463cf74aa6fe96ed236abdd67f772d9b590ce3",
+      "bytes": 297454
+    },
+    {
+      "path": "assets/beyondwords-tutorial-poster.png",
+      "sha256": "28d26eeec5dfdaac242e87e576d79716d765d91f208474a11e89d6886e53c010",
+      "bytes": 743394
+    },
+    {
+      "path": "docs/CAPABILITIES.md",
+      "sha256": "672c60f75975059150c36201a2f0d066cc5660c72ea8683ad0e2ea0342e915bd",
+      "bytes": 10404
+    },
+    {
+      "path": "docs/DEPENDENCIES.md",
+      "sha256": "b3bcb72a76643f229b0fda662f1ab402a67faea402c014e2a8c5eb41daf1b67d",
+      "bytes": 3435
+    },
+    {
+      "path": "docs/FAQ.md",
+      "sha256": "7a578a3e77063687ed518dc90efcbcc0c6f117272eeebf8708a8cfc3bd230a48",
+      "bytes": 4171
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "sha256": "1e8d03713b8bb70466fca1668311bfbfca4c3d4cfeb42e07b9aa87bb02cec76c",
+      "bytes": 12083
+    },
+    {
+      "path": "docs/MCP_DEPENDENCIES.json",
+      "sha256": "04e3b8c242db7574ebc4a68d5271c1f258a4a61a8bf15d4337ef5ca28b606b56",
+      "bytes": 7204
+    },
+    {
+      "path": "docs/PRIVACY.md",
+      "sha256": "e3b685f7d2776884686720c921da180ba1f6684f4096e6f1218b73018f512859",
+      "bytes": 761
+    },
+    {
+      "path": "docs/TECHNICAL.md",
+      "sha256": "2b07b6629ab13cef81d96bd10e626b05c2b8a02b4e920cf6aeb1cfb618244cf3",
+      "bytes": 8143
+    },
+    {
+      "path": "packaging/plugin.json",
+      "sha256": "763a11beae40bb6c41b1bd66747805ef8e1e276303ad10e8ccf200b464a74a0a",
+      "bytes": 1048
+    },
+    {
+      "path": "requirements/dependency-metadata.json",
+      "sha256": "19e4d194880cc9f109f58dc8d80b025ae57d29fb9c33439b7d16dbef44bcbd36",
+      "bytes": 1903
+    },
+    {
+      "path": "requirements/epubcheck.lock.json",
+      "sha256": "8139279c68f11f004110578a9e0de6f477766d7ff207044449b8a557d85f805f",
+      "bytes": 474
+    },
+    {
+      "path": "requirements/mcp.lock",
+      "sha256": "1ba254890c168a6221c1af0207724b2a978101aa3815188b1c9e0a57d26e83e7",
+      "bytes": 40291
+    },
+    {
+      "path": "requirements/optional.lock",
+      "sha256": "1e61ea112dd9ae0f56f3fd0f8379f2fa76c5501dd435a2dfc647288959502806",
+      "bytes": 30325
+    },
+    {
+      "path": "tools/build_plugin.py",
+      "sha256": "37e7e02731b36e9357bdd4a24118723b7419abf31f7b4a5c3d5c551b2fbafd23",
+      "bytes": 1605
+    },
+    {
+      "path": "tools/build_release.py",
+      "sha256": "23e83004058909332f1ecaa64a7ef978bb0180f71ca80f38fec543403b3443b3",
+      "bytes": 2778
+    },
+    {
+      "path": "tools/check_public_package.py",
+      "sha256": "817611d266a8cb8caf0dad18b2323ab30f83de05c869728c0214f2340d16ac7c",
+      "bytes": 3011
+    },
+    {
+      "path": "tools/configure_mcp.py",
+      "sha256": "6135876c6ae51c3024ddccced3176ee1614d02ba0711803f0677e2d5a1c67280",
+      "bytes": 1428
+    },
+    {
+      "path": "tools/install_epubcheck.py",
+      "sha256": "3e2d1cb3da0f57041706fabadb7f3c7506dfd42e9109c3d34205cf848e76a54d",
+      "bytes": 1967
+    },
+    {
+      "path": "tools/install_skill.py",
+      "sha256": "9481f6962837a50bc468d5b0200c3422e4391592493f07b51b0696a9d356c2d8",
+      "bytes": 1816
+    },
+    {
+      "path": "tools/setup_runtime.py",
+      "sha256": "5d5a067e37e09926cf41496990d3b252dde7a4f1f14b578779ca9d1cfab5b77c",
+      "bytes": 1684
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "license": "MIT",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/annotated-types/0.8.0/"
+  },
+  {
+    "name": "anyio",
+    "version": "4.15.1",
+    "license": "MIT",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/anyio/4.15.1/"
+  },
+  {
+    "name": "attrs",
+    "version": "26.1.0",
+    "license": "MIT",
+    "requires_python": ">=3.9",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/attrs/26.1.0/"
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "license": "MIT-0",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/cffi/2.1.1/"
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "license": "BSD-3-Clause",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/click/8.5.0/"
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "license": "",
+    "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/colorama/0.4.6/"
+  },
+  {
+    "name": "cryptography",
+    "version": "50.0.2",
+    "license": "Apache-2.0 OR BSD-3-Clause",
+    "requires_python": "!=3.9.0,!=3.9.1,>=3.9",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/cryptography/50.0.2/"
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "license": "MIT",
+    "requires_python": ">=3.8",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/h11/0.16.0/"
+  },
+  {
+    "name": "httpcore2",
+    "version": "2.13.1",
+    "license": "BSD-3-Clause",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/httpcore2/2.13.1/"
+  },
+  {
+    "name": "httpx2",
+    "version": "2.13.1",
+    "license": "BSD-3-Clause",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/httpx2/2.13.1/"
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "license": "BSD-3-Clause",
+    "requires_python": ">=3.9",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/idna/3.20/"
+  },
+  {
+    "name": "jsonschema",
+    "version": "4.26.0",
+    "license": "MIT",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/jsonschema/4.26.0/"
+  },
+  {
+    "name": "jsonschema-specifications",
+    "version": "2025.9.1",
+    "license": "MIT",
+    "requires_python": ">=3.9",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/jsonschema-specifications/2025.9.1/"
+  },
+  {
+    "name": "mcp",
+    "version": "2.2.0",
+    "license": "MIT",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/mcp/2.2.0/"
+  },
+  {
+    "name": "mcp-types",
+    "version": "2.2.0",
+    "license": "MIT",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/mcp-types/2.2.0/"
+  },
+  {
+    "name": "opentelemetry-api",
+    "version": "1.45.0",
+    "license": "Apache-2.0",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/opentelemetry-api/1.45.0/"
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "license": "BSD-3-Clause",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/pycparser/3.0/"
+  },
+  {
+    "name": "pydantic",
+    "version": "2.13.5",
+    "license": "MIT",
+    "requires_python": ">=3.9",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/pydantic/2.13.5/"
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.46.5",
+    "license": "MIT",
+    "requires_python": ">=3.9",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/pydantic_core/2.46.5/"
+  },
+  {
+    "name": "PyJWT",
+    "version": "2.15.1",
+    "license": "MIT",
+    "requires_python": ">=3.9",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/PyJWT/2.15.1/"
+  },
+  {
+    "name": "python-multipart",
+    "version": "0.0.32",
+    "license": "Apache-2.0",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/python-multipart/0.0.32/"
+  },
+  {
+    "name": "pywin32",
+    "version": "311",
+    "license": "PSF",
+    "requires_python": null,
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/pywin32/311/"
+  },
+  {
+    "name": "referencing",
+    "version": "0.37.0",
+    "license": "MIT",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/referencing/0.37.0/"
+  },
+  {
+    "name": "rpds-py",
+    "version": "2026.6.3",
+    "license": "MIT",
+    "requires_python": ">=3.11",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/rpds-py/2026.6.3/"
+  },
+  {
+    "name": "sse-starlette",
+    "version": "3.5.0",
+    "license": "BSD-3-Clause",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/sse-starlette/3.5.0/"
+  },
+  {
+    "name": "starlette",
+    "version": "1.7.0",
+    "license": "BSD-3-Clause",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/starlette/1.7.0/"
+  },
+  {
+    "name": "truststore",
+    "version": "0.10.4",
+    "license": "MIT",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/truststore/0.10.4/"
+  },
+  {
+    "name": "typing-inspection",
+    "version": "0.4.4",
+    "license": "MIT",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/typing-inspection/0.4.4/"
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license": "PSF-2.0",
+    "requires_python": ">=3.9",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/typing_extensions/4.16.0/"
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.54.0",
+    "license": "BSD-3-Clause",
+    "requires_python": ">=3.10",
+    "purpose": "Optional official MCP transport dependency",
+    "source": "https://pypi.org/project/uvicorn/0.54.0/"
+  }
+]

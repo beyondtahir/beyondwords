@@ -1,0 +1,639 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Beyond Publishing project state v2 (fixture only)",
+  "description": "Current snapshot from project read. Original project.json remains schema 1; runtime validation is standard-library Python.",
+  "type": "object",
+  "required": [
+    "project_id",
+    "title",
+    "country",
+    "language",
+    "budget",
+    "currency",
+    "created_at",
+    "policy_status",
+    "schema_version",
+    "revision",
+    "mode",
+    "original_schema_version",
+    "original_sha256",
+    "decisions",
+    "artifacts",
+    "evidence_ids",
+    "observation_ids",
+    "warnings",
+    "publication_authorized",
+    "workflow",
+    "reader_profile",
+    "buyer_profile",
+    "author_voice",
+    "book_brief"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "country": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "budget": {
+      "type": "string",
+      "minLength": 1
+    },
+    "currency": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "policy_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": 2
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "mode": {
+      "const": "fixture_only"
+    },
+    "original_schema_version": {
+      "const": 1
+    },
+    "original_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/decision"
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifact"
+      }
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observation_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "publication_authorized": {
+      "const": false
+    },
+    "workflow": {
+      "type": "object",
+      "required": [
+        "phase",
+        "bsr_check",
+        "opportunity",
+        "review"
+      ],
+      "properties": {
+        "phase": {
+          "enum": [
+            "initialized",
+            "evidence_imported",
+            "bsr_checked",
+            "opportunity_saved",
+            "sample_saved",
+            "review_complete"
+          ]
+        },
+        "bsr_check": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "opportunity": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "review": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "reader_profile": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/decision"
+        }
+      ]
+    },
+    "buyer_profile": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/decision"
+        }
+      ]
+    },
+    "author_voice": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/decision"
+        }
+      ]
+    },
+    "book_brief": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/decision"
+        }
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "reader_profile": {
+      "type": "object",
+      "required": [
+        "audience",
+        "starting_knowledge",
+        "goals",
+        "needs"
+      ],
+      "properties": {
+        "audience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "starting_knowledge": {
+          "type": "string",
+          "minLength": 1
+        },
+        "goals": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "needs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "buyer_profile": {
+      "type": "object",
+      "required": [
+        "purchase_context",
+        "objections",
+        "expectations",
+        "hypothesis"
+      ],
+      "properties": {
+        "purchase_context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "objections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "expectations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hypothesis": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "author_voice": {
+      "type": "object",
+      "required": [
+        "tone",
+        "sample_refs",
+        "genuine_experience",
+        "avoid"
+      ],
+      "properties": {
+        "tone": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sample_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "genuine_experience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "avoid": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "book_brief": {
+      "type": "object",
+      "required": [
+        "title",
+        "promise",
+        "genre",
+        "scope",
+        "evidence_needs"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "promise": {
+          "type": "string",
+          "minLength": 1
+        },
+        "genre": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_needs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "opportunity_brief": {
+      "type": "object",
+      "required": [
+        "hypothetical",
+        "concept",
+        "rationale",
+        "limitations"
+      ],
+      "properties": {
+        "hypothetical": {
+          "const": true
+        },
+        "concept": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "decision": {
+      "type": "object",
+      "required": [
+        "decision_id",
+        "revision",
+        "kind",
+        "status",
+        "content",
+        "content_sha256",
+        "evidence_ids",
+        "artifact_refs",
+        "approval",
+        "synthetic_context",
+        "warnings",
+        "created_at"
+      ],
+      "properties": {
+        "decision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "kind": {
+          "enum": [
+            "reader_profile",
+            "buyer_profile",
+            "author_voice",
+            "book_brief",
+            "opportunity_brief"
+          ]
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "approved"
+          ]
+        },
+        "content": {
+          "type": "object"
+        },
+        "content_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "artifact_refs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "artifact_id",
+              "revision",
+              "sha256"
+            ],
+            "properties": {
+              "artifact_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "revision": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "approval": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "required": [
+                "actor_declaration",
+                "approved_draft_revision",
+                "content_sha256",
+                "scope",
+                "trusted_external_authorization"
+              ],
+              "properties": {
+                "actor_declaration": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "approved_draft_revision": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "content_sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "scope": {
+                  "const": "local_review_only"
+                },
+                "trusted_external_authorization": {
+                  "const": false
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        },
+        "synthetic_context": {
+          "const": true
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "created_at": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "reader_profile"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/$defs/reader_profile"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "buyer_profile"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/$defs/buyer_profile"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "author_voice"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/$defs/author_voice"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "book_brief"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/$defs/book_brief"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "opportunity_brief"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/$defs/opportunity_brief"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "artifact": {
+      "type": "object",
+      "required": [
+        "artifact_id",
+        "revision",
+        "kind",
+        "sha256",
+        "size_bytes",
+        "source_name",
+        "provenance",
+        "synthetic_context",
+        "warnings",
+        "created_at"
+      ],
+      "properties": {
+        "artifact_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "kind": {
+          "enum": [
+            "outline",
+            "sample",
+            "review"
+          ]
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "size_bytes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5242880
+        },
+        "source_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "enum": [
+            "user_supplied",
+            "fixture_supplied",
+            "local_deterministic_summary"
+          ]
+        },
+        "synthetic_context": {
+          "const": true
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "created_at": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "EPUBCheck",
+  "version": "5.4.0",
+  "url": "https://github.com/w3c/epubcheck/releases/download/v5.4.0/epubcheck-5.4.0.zip",
+  "sha256": "33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c",
+  "license": "BSD-3-Clause; bundled third-party notices also apply",
+  "java": "A compatible Java runtime is separately required; the local demo used checksum-verified Temurin JRE 21.0.12.1+1 on macOS ARM64.",
+  "optional": true,
+  "redistributed": false
+}

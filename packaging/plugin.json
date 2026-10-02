@@ -1,0 +1,24 @@
+{
+  "name": "beyondwords",
+  "version": "1.1.0",
+  "description": "A local AI publishing house for research, writing, design, publication preparation and book-business analysis.",
+  "author": {
+    "name": "Beyond Tahir"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Beyondwords",
+    "shortDescription": "Your publishing team, from idea to launch",
+    "longDescription": "A conversational publishing team with saved intake, evidence-backed choices, writing and cover tools, EPUB/PDF production, attended publishing, an Amazon Ads connector and restartable monitoring. Uses replaceable host AI and local helpers. Real account access and reviewed publishing/spending decisions remain required.",
+    "developerName": "Beyond Tahir",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Help me develop my first book with Beyondwords.",
+      "Review my manuscript and prepare publication files.",
+      "Analyze my actual book royalties and advertising reports."
+    ]
+  }
+}

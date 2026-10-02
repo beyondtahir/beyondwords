@@ -1,0 +1,76 @@
+[
+  {
+    "name": "playwright",
+    "version": "1.63.0",
+    "license": "Apache-2.0",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/project/playwright/1.63.0/",
+    "dependencies": [
+      "pyee<14,>=13",
+      "greenlet<4.0.0,>=3.1.1"
+    ]
+  },
+  {
+    "name": "pyee",
+    "version": "13.0.0",
+    "license": "MIT",
+    "requires_python": ">=3.8",
+    "source": "https://pypi.org/project/pyee/13.0.0/",
+    "dependencies": [
+      "typing-extensions"
+    ]
+  },
+  {
+    "name": "greenlet",
+    "version": "3.5.6",
+    "license": "MIT AND PSF-2.0",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/project/greenlet/3.5.6/",
+    "dependencies": []
+  },
+  {
+    "name": "Pillow",
+    "version": "12.3.0",
+    "license": "MIT-CMU",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/project/Pillow/12.3.0/",
+    "dependencies": []
+  },
+  {
+    "name": "reportlab",
+    "version": "4.4.9",
+    "license": "BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc.",
+    "requires_python": "<4,>=3.9",
+    "source": "https://pypi.org/project/reportlab/4.4.9/",
+    "dependencies": [
+      "pillow>=9.0.0",
+      "charset-normalizer"
+    ]
+  },
+  {
+    "name": "pypdf",
+    "version": "6.10.0",
+    "license": "BSD-3-Clause",
+    "requires_python": ">=3.9",
+    "source": "https://pypi.org/project/pypdf/6.10.0/",
+    "dependencies": [
+      "typing_extensions>=4.0; python_version < \"3.11\""
+    ]
+  },
+  {
+    "name": "typing-extensions",
+    "version": "4.16.0",
+    "license": "PSF-2.0",
+    "requires_python": ">=3.9",
+    "source": "https://pypi.org/project/typing-extensions/4.16.0/",
+    "dependencies": []
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.1",
+    "license": "MIT",
+    "requires_python": ">=3.7",
+    "source": "https://pypi.org/project/charset-normalizer/3.5.1/",
+    "dependencies": []
+  }
+]

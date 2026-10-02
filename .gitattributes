@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.gif binary
+*.mp4 binary
+*.ttf binary
+*.otf binary
+# Preserve upstream license notices byte for byte.
+.agents/skills/beyondwords/modules/beyondwords/beyondwords-publisher/assets/fonts/*-OFL.txt -text
