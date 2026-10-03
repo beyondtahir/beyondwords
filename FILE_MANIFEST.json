@@ -608,8 +608,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b02364eac2736dfd74808011bb7de0fe2c7f6771359cdefa97949fdecbefda38",
-      "bytes": 12542
+      "sha256": "8d19f98a69a3abdfb0d95d73905324ca78de2e84d09df5ce618b6d3efca19fa3",
+      "bytes": 19057
     },
     {
       "path": "VERSION",
@@ -643,8 +643,8 @@
     },
     {
       "path": "docs/CAPABILITIES.md",
-      "sha256": "672c60f75975059150c36201a2f0d066cc5660c72ea8683ad0e2ea0342e915bd",
-      "bytes": 10404
+      "sha256": "ce0ea2095a7b1d9381bb7ef6e96044604fda764e2ead7d8d70a7e17d641e00de",
+      "bytes": 12352
     },
     {
       "path": "docs/DEPENDENCIES.md",
@@ -653,8 +653,8 @@
     },
     {
       "path": "docs/FAQ.md",
-      "sha256": "7a578a3e77063687ed518dc90efcbcc0c6f117272eeebf8708a8cfc3bd230a48",
-      "bytes": 4171
+      "sha256": "57be976bbff0345447441c9d9bb8202a815716887536fbfb6a25c30175adc52e",
+      "bytes": 5852
     },
     {
       "path": "docs/INSTALL.md",

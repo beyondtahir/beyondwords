@@ -2,6 +2,22 @@
 
 [← Back to Beyondwords](../README.md) · [Install](INSTALL.md)
 
+### What is Beyondwords made for?
+
+It is designed to help people build an income through their own books or book-production services. The main publishing focus is Amazon Kindle/KDP, with Lulu preparation and other supported routes. It connects a goal to research, production, publication, advertising and measured improvement. It does not guarantee earnings.
+
+### Can I use it for Upwork or client services?
+
+Yes. Use the production tools to create client deliverables such as research briefs, manuscript revisions, original covers and supported EPUB/PDF formatting. Agree what you can deliver, review the actual work and keep client projects private and separate. The toolkit does not acquire clients, operate an Upwork account, synchronize freelance payments or promise that an offer will sell.
+
+### Does it make audiobooks, comics and visual books?
+
+Illustrated and cartoon-style books use available host image/layout tools plus the local image-page exporters. Comics need explicit panel, lettering and reading-order review. Audiobook support is currently guidance and production handoff only: narration, mastering, audio validation and upload require separate tools. These formats have different production and distribution requirements.
+
+### How does it work with an income goal?
+
+First it clarifies the target, timeframe, available investment and time. It researches opportunities, helps choose a book or service deliverable and works through a small practical test. Book progress can then use actual royalties, costs and ad reports. Before sufficient history exists, it offers conditional scenarios and explains what remains unknown instead of inventing a profit forecast.
+
 ### Is this a prompt collection?
 
 It is a publishing workflow with executable tools: private project records, research evidence, manuscript/version handling, production helpers, account adapters and reporting. The skill tells your assistant when and how to use them. The host still provides the AI and any host-specific tools.

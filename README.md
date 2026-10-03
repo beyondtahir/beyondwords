@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <strong>One publishing team. From your first idea to your next reader.</strong><br>
-  An open-source skill and local toolkit for people who want to make books worth reading.
+  <strong>Your goal. Your books. Your publishing business.</strong><br>
+  A goal-driven AI book production house, built around Amazon Kindle and KDP.
 </p>
 
 <p align="center">
@@ -15,6 +15,7 @@
 </p>
 
 <p align="center">
+  <a href="#two-ways-to-build-an-income"><strong>Why Beyondwords</strong></a> ·
   <a href="#see-it-in-action"><strong>Watch</strong></a> ·
   <a href="#install-in-your-assistant"><strong>Install</strong></a> ·
   <a href="docs/CAPABILITIES.md"><strong>Capabilities</strong></a> ·
@@ -24,13 +25,13 @@
 
 ---
 
-## Bring the idea. Build the book. Keep moving.
+## Build books. Build a business.
 
-You might have a manuscript. You might have a subject you love. You might simply want to publish your first book and have no idea where to begin.
+**Beyondwords is a goal-driven AI book production house designed to help you earn through publishing and book-production services.** Start with a business goal, a book idea or no publishing experience. It helps you find a niche and category, develop an original book, create its cover and interior, publish through supported account workflows, run authorized advertising and improve from actual results.
 
-**Beyondwords meets you there.** It works inside your AI assistant as a conversational publishing team: researcher, writing partner, editor, designer, production assistant and marketing guide. It asks useful questions, remembers your selected project and helps you finish the next meaningful step.
+**Amazon Kindle and KDP are the primary focus.** The workflow also supports preparing books for Lulu and creating deliverables for freelance clients. Research, writing, editing, design, production and marketing work together in one conversation, with your assistant doing the available work and bringing you the decisions that matter.
 
-The skill is backed by executable local tools for evidence, manuscripts, book files, account workflows and reporting. Your assistant supplies the intelligence; Beyondwords gives the work structure, continuity and practical outputs.
+You bring the goal, creative direction and approvals. Beyondwords connects them to research, useful files and the next practical action. The aim is to build an income-producing business; earnings depend on the books, readers, costs and execution, and are never guaranteed.
 
 ## See it in action
 
@@ -43,6 +44,71 @@ The skill is backed by executable local tools for evidence, manuscripts, book fi
 
 The walkthrough uses edited screen recordings of a book project. It shows selected steps, including a labeled cover still; it does not represent a full installation, advertising campaign or sales result.
 
+## Two ways to build an income
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Publish your own books
+
+Build a catalogue under your author or publisher identity. Research a reader and niche, choose the right book, create and refine it, prepare ebook or print editions, then publish and market it through supported routes such as **Amazon KDP and Lulu**.
+
+Track royalties and costs so the next title or advertising decision follows actual results.
+
+</td>
+<td width="50%" valign="top">
+
+### Offer book-production services
+
+Use the same production tools to deliver client work: research briefs, manuscript development, revisions, cover design, EPUB/PDF formatting and publication preparation.
+
+Package the work you can deliver and quality-check into services for **Upwork or direct clients**. Keep each client's material and approvals separate.
+
+</td>
+</tr>
+</table>
+
+These are two business uses of the toolkit. You still acquire clients, agree scope and pricing, review the work and meet platform and client requirements. Beyondwords does not include an Upwork account integration or guarantee freelance orders.
+
+## Your goal drives the workflow
+
+> “I want to build a publishing business and work toward a monthly profit target. Help me choose the right niche, understand the investment and create my first book.”
+
+Beyondwords first clarifies the goal: profit or revenue, timeframe, budget, available time, country, language and existing skills or material. It then works with you through a repeating loop:
+
+1. **Research the opportunity.** Compare readers, niches, categories, competing books, previews and feedback. Offer five supported choices and let you choose.
+2. **Plan the first experiment.** Define an original book, its reader promise, format and costs. Discuss the budget and workload needed to test the idea.
+3. **Produce and review.** Develop the voice or visual style, create the book, revise it and prepare the cover and files.
+4. **Publish and promote.** Prepare the listing, carry out supported authorized account actions and run a bounded advertising experiment when connected.
+5. **Measure and improve.** Compare actual royalties, production costs and ad spend with the goal. Improve the current book or consider another title when the evidence supports it.
+
+A target shapes the decisions; it is not proof of future earnings. Before sales history exists, planning uses research and explicit scenarios. As real reports arrive, the workflow updates from measured results. You get short conversations and concrete progress, not an unsolicited long business-plan PDF.
+
+## Choose the book that fits the reader
+
+| Book or format | What Beyondwords helps you make |
+|---|---|
+| **Kindle ebooks** | Fiction or nonfiction, an original voice, structured chapters, revisions and supported EPUB production |
+| **Print books** | Interiors, front/spine/back covers and print PDFs matched to the selected trim and current printer template |
+| **Novels and story collections** | Premises, characters, world rules, story arcs, chapter drafts and continuity checks |
+| **Illustrated and children's books** | Age-aware text, spread plans, art direction, illustrations through available image tools and image-page layouts |
+| **Cartoon-style books and comics** | Character references, panels, dialogue, lettering plans and page assembly using actual art/layout tools |
+| **Coloring, activity and puzzle books** | Original page concepts, supported text/image assembly, contact sheets and explicit usability or solution checks |
+| **Audiobooks** | Production guidance and a handoff for narration and audio review; native narration, mastering and audiobook upload are not bundled |
+
+The format follows the reader and the research. Visual work needs available image/layout tools; specialist layouts, puzzle solutions and final print/device previews require their own checks. An audiobook is a separate production and distribution route, not an EPUB export.
+
+## Built around Amazon KDP, with room to grow
+
+**For your own catalogue:** use [Amazon KDP](https://kdp.amazon.com/) for Kindle ebooks and supported print editions, or prepare suitable books for [Lulu](https://www.lulu.com/create). Beyondwords researches relevant categories and listing terms, prepares the files and helps manage the publication workflow. Each platform has its own eligibility, rights, format and distribution requirements.
+
+**For client work:** use the toolkit to produce agreed deliverables for services such as [book and ebook writing](https://www.upwork.com/services/book-ebook-writing) or [book design](https://www.upwork.com/services/book-design). These are examples of service categories, not evidence of demand for a particular offer or a promise of earnings.
+
+**For connected execution:** Beyondwords can perform supported attended publishing actions and Amazon Sponsored Products operations when the actual tools, account access and authorization are in place. It can help create campaigns, analyze reports and monitor through a configured worker or scheduler. If a connection is missing, it continues with file preparation, report imports or a guided handoff and explains what still needs setup.
+
+You can work step by step or delegate within an agreed scope. Sensitive account details stay with the owner; publishing choices, spending limits and creative review remain explicit. Beyondwords is an independent project, not affiliated with Amazon, Lulu or Upwork.
+
 ## A publishing house inside your workflow
 
 <table>
@@ -51,7 +117,7 @@ The walkthrough uses edited screen recordings of a book project. It shows select
 
 ### 01 · Find the reader and the idea
 
-Research comparable books, permitted previews and actual reader feedback. Explore **five researched niches with an idea for each**, or **five ideas within your chosen niche**. See the gaps, contrary evidence and a useful next experiment.
+Find candidate niches and categories by researching comparable books, permitted previews and actual reader feedback. Explore **five researched niches with an idea for each**, or **five ideas within your chosen niche**. See the gaps, contrary evidence and a useful next experiment.
 
 </td>
 <td width="50%" valign="top">
@@ -88,25 +154,25 @@ Prepare supported **EPUB, print PDF and editable DOCX** outputs. Assemble illust
 </td>
 <td width="50%" valign="top">
 
-### 06 · Get ready to publish
+### 06 · Publish through connected tools
 
-Work through country-aware account setup, public author identity, descriptions, categories and evidence-supported keywords. Prepare exact files and guide the attended upload, preview and submission through available account tools.
+Work through country-aware account setup, public author identity, descriptions, categories and evidence-supported keywords. Prepare exact files and perform supported attended upload and submission actions when account access and authorization are available. Guide the owner through preview and remaining decisions.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 07 · Launch with a plan
+### 07 · Run and review advertising
 
-Develop an ethical reader-outreach plan and a bounded advertising experiment. Use the Amazon Sponsored Products adapter when authorized access is available, or import reports and work through the next action together.
+Develop an ethical reader-outreach plan and a bounded advertising experiment. Create and manage supported Sponsored Products campaigns through authorized API access, then analyze reports. Use imports when a connection is unavailable.
 
 </td>
 <td width="50%" valign="top">
 
-### 08 · Learn from what happens
+### 08 · Work toward your profit goal
 
-Track reporting periods, royalties, production costs and ad spend. Review performance with real data. Continue through a configured monitor or scheduler, improving the book, listing or campaign as evidence arrives.
+Track royalties, production costs and ad spend against the agreed goal. Review performance with real data and continue through a configured monitor or scheduler, improving the book, listing or campaign as evidence arrives.
 
 </td>
 </tr>
@@ -142,7 +208,7 @@ Installation controls and tool access vary by host and account. The guides descr
 
 ## Your first conversation
 
-> Use Beyondwords as my publishing team. I am new to publishing. Help me choose a reader, research an idea and create my first book. Ask me the important questions and guide me one step at a time.
+> Use Beyondwords to help me build a book business. I am new to publishing and want to work toward an income goal. Help me decide whether to start with my own books or client services, then research and guide me one step at a time.
 
 Beyondwords starts with a short intake: your language, country, experience, interests, intended formats, available time and budget. Returning authors confirm saved details instead of starting over. An income goal leads to questions, research and transparent scenarios, not an invented guarantee or an unsolicited long report.
 
@@ -179,6 +245,12 @@ Research page samples and reader expectations, test an original prototype and ch
 <summary><strong>“My book is nearly finished.”</strong></summary>
 
 Import the manuscript, assess gaps and prepare revisions, production files, cover specifications and listing material. Continue toward preview and publication without discarding your existing work.
+
+</details>
+<details>
+<summary><strong>“I want to offer book-production services.”</strong></summary>
+
+Choose a specific deliverable you can produce and review well, such as an ebook formatting package, an original cover or manuscript development. Create an honest sample, agree the client brief and use a separate private project for production and revisions. You manage the service listing, client agreement and payment through the chosen marketplace or direct relationship.
 
 </details>
 <details>

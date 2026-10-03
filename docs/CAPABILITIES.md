@@ -2,7 +2,15 @@
 
 [← Back to Beyondwords](../README.md) · [Install](INSTALL.md) · [Technical guide](TECHNICAL.md)
 
-Beyondwords combines a conversational workflow with executable local tools. It can perform available work, keep the project organized and carry decisions forward. The host supplies reasoning, writing, images and browsing; connected actions additionally need real access and authorization.
+Beyondwords is a goal-driven book production house for building a publishing catalogue or delivering book-production services, with Amazon Kindle/KDP as its primary platform focus. It combines a conversational workflow with executable local tools. It can perform available work, keep the project organized and carry decisions forward. The host supplies reasoning, writing, images and browsing; connected actions additionally need real access and authorization.
+
+## Two business uses, one production workflow
+
+**Own-book publishing:** work from an income goal through reader/niche research, creation, publication and marketing. Use actual royalties and costs to assess progress and inform further investment. KDP is the primary focus; Lulu preparation and supported attended routes are also included.
+
+**Client production services:** use the same research, writing, editing, cover and file tools to produce agreed work for Upwork or direct clients. Keep projects and approvals separate, validate deliverables and agree rights, AI use, scope and revisions with the client. This is a use of the existing toolkit, not a bundled freelance marketplace integration, client-acquisition system or guaranteed source of paid work.
+
+An income target guides planning. The toolkit cannot establish demand, future profit or the number of clients/books required without suitable evidence. The goal/report features below concern the book business; they do not provide client invoicing or Upwork earnings synchronization.
 
 ## 1. Start with the person
 
@@ -57,13 +65,18 @@ The toolkit includes cover directions, composition, dimension/pixel checks, wrap
 | Route | Available output | Review still needed |
 |---|---|---|
 | Text-led book | Reflowable EPUB, print PDF and basic editable DOCX | Typography, navigation, page breaks and retailer preview |
-| Image-led book | Image-page PDF and fixed-layout EPUB | Reading order, device behavior, image quality and accessibility |
+| Illustrated, children's or cartoon-style book | Host-assisted text/art direction, image-page PDF and fixed-layout EPUB | Age fit, art consistency, reading order, device behavior and accessibility |
+| Comics | Panel/dialogue planning and assembly of supplied or host-created pages | Lettering, sequence, specialist layout and device navigation |
 | Coloring book | Page assembly, optional blank backs, PDF and contact sheet | Line quality, originality, bleed and physical usability |
 | Puzzle book | Supported text/image assembly and editorial workflow | Puzzle solvability, uniqueness, answer keys and suitable layout |
 
 The tools do not constitute a universal puzzle generator or a complete desktop publishing engine. Complex diagrams, mixed layouts, right-to-left typography and every retailer/device combination require additional verification. Use a physical proof for print decisions.
 
 **Outputs:** production files, editable source where supported, artifact hashes, contact sheets and validation findings. EPUBCheck is an optional independent validator, installed separately.
+
+### Audiobook route
+
+The bundled audiobook material is **guidance only**. It helps organize a production handoff and review the current requirements for a chosen narration/distribution route. There is no native narration engine, audio mastering pipeline, measured audio-quality validator or audiobook account uploader. Those steps need separately available tools or providers and their own eligibility, rights and technical checks. Do not sell or describe an unproduced audio file as a completed deliverable.
 
 ## 7. Prepare identity, metadata and publication
 
