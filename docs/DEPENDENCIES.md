@@ -33,3 +33,7 @@ The included logo, banner and edited walkthrough are supplied as Beyondwords pre
 ## Package automation
 
 GitHub Actions uses pinned revisions of `actions/checkout` and `actions/setup-python` to verify the clean package. Those actions are provided under their upstream MIT notices. The check installs no model or account connector and performs no publishing or advertising action.
+
+## Security monitoring
+
+`requirements/requirements.txt` exposes the exact optional-runtime package versions to GitHub dependency discovery. The hashed `optional.lock` and `mcp.lock` remain the installer inputs. The package checker rejects missing, extra or changed inventory pins. Security update proposals need reviewed changes to the real locks, hashes, metadata and release manifest before merging. External browser/Java binaries and host services are outside this Python inventory. See the [security policy](../SECURITY.md).

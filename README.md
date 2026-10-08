@@ -20,6 +20,7 @@
   <a href="#install-in-your-assistant"><strong>Install</strong></a> ·
   <a href="docs/CAPABILITIES.md"><strong>Capabilities</strong></a> ·
   <a href="docs/TECHNICAL.md"><strong>Under the hood</strong></a> ·
+  <a href="SECURITY.md"><strong>Security</strong></a> ·
   <a href="https://www.beyondtahir.com"><strong>Beyond Tahir</strong></a>
 </p>
 
@@ -270,6 +271,10 @@ Bring actual royalty and advertising reports. Separate attributed sales from aut
 
 Beyondwords itself is free to use. Your assistant, optional services, printing and advertising may have costs. It cannot guarantee sales, viral reach, account approval or income. Publication still needs appropriate editorial review, reader feedback and print proofs. [Practical limits and FAQ →](docs/FAQ.md)
 
+## Security and private reporting
+
+Found a security problem? Use [Report a vulnerability](https://github.com/beyondtahir/beyondwords/security/advisories/new) to share it privately with the maintainer. The repository uses secret scanning, push protection, dependency alerts and CodeQL scanning alongside its package checks. Read the [security policy](SECURITY.md) for reporting details, supported releases and the boundaries of these protections. Automated scanning is not an independent security certification.
+
 ## Under the hood
 
 A portable skill orchestrates a **Python 3.11+ local toolkit**, a versioned project store and optional browser, production and account adapters. It includes source-evidence handling, manuscript history, artifact checks, action journals and report monitoring. Optional dependencies are pinned and documented.
@@ -283,6 +288,7 @@ There is no hosted Beyondwords backend and no bundled model. Persistent monitori
 | [Technical guide](docs/TECHNICAL.md) | Architecture, CLI, adapters, checks and extensibility |
 | [Dependencies](docs/DEPENDENCIES.md) | Versions, licenses, optional components and notices |
 | [Privacy](docs/PRIVACY.md) | Private workspaces, accounts and cross-host memory |
+| [Security policy](SECURITY.md) | Private vulnerability reporting, protections and security boundaries |
 | [FAQ](docs/FAQ.md) | Costs, research, publishing, automation and support |
 
 ---

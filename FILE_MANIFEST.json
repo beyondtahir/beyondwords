@@ -587,6 +587,16 @@
       "bytes": 233
     },
     {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "371f7fed9479c0bef42273e8b31e11b9b8faa9608bff8eef3e4e00351a09a20b",
+      "bytes": 259
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha256": "16afba73e67b046e6f61f0f6432001eb718821f1859189c22d8d51a2d38ea1a9",
+      "bytes": 432
+    },
+    {
       "path": ".github/workflows/package.yml",
       "sha256": "6bb84cd696ba16f9aacb92b98e5a8090d9f4ed7ea444b290b9f6e77c38244f6e",
       "bytes": 673
@@ -608,8 +618,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "8d19f98a69a3abdfb0d95d73905324ca78de2e84d09df5ce618b6d3efca19fa3",
-      "bytes": 19057
+      "sha256": "5dc452326652858132c01de5ad7f4c74aca039d844f3b0625a707b396a093b68",
+      "bytes": 19732
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "326f63bb1e7c1dc9a0b56f96506e31e5d7ced119961ea157b7e27d16ced1b51c",
+      "bytes": 5351
     },
     {
       "path": "VERSION",
@@ -648,8 +663,8 @@
     },
     {
       "path": "docs/DEPENDENCIES.md",
-      "sha256": "b3bcb72a76643f229b0fda662f1ab402a67faea402c014e2a8c5eb41daf1b67d",
-      "bytes": 3435
+      "sha256": "023dfd98693b5b0b0f6d11b786bf5b4789548296f445f085999550f81f07db3a",
+      "bytes": 3965
     },
     {
       "path": "docs/FAQ.md",
@@ -668,8 +683,8 @@
     },
     {
       "path": "docs/PRIVACY.md",
-      "sha256": "e3b685f7d2776884686720c921da180ba1f6684f4096e6f1218b73018f512859",
-      "bytes": 761
+      "sha256": "5367cdf6dfa273f957569e062863e73b678bacccd84a9246b984690b54f6d218",
+      "bytes": 952
     },
     {
       "path": "docs/TECHNICAL.md",
@@ -702,19 +717,24 @@
       "bytes": 30325
     },
     {
+      "path": "requirements/requirements.txt",
+      "sha256": "efc1526aea786c97af9583dec9c65c3e4b2bc29b18df6c95832d249fbd7bd6ed",
+      "bytes": 916
+    },
+    {
       "path": "tools/build_plugin.py",
       "sha256": "37e7e02731b36e9357bdd4a24118723b7419abf31f7b4a5c3d5c551b2fbafd23",
       "bytes": 1605
     },
     {
       "path": "tools/build_release.py",
-      "sha256": "23e83004058909332f1ecaa64a7ef978bb0180f71ca80f38fec543403b3443b3",
-      "bytes": 2778
+      "sha256": "d907fa283e8a3204342c3b58626efe0552a1651c5fcf8552a69ff956b8ca41d9",
+      "bytes": 2792
     },
     {
       "path": "tools/check_public_package.py",
-      "sha256": "817611d266a8cb8caf0dad18b2323ab30f83de05c869728c0214f2340d16ac7c",
-      "bytes": 3011
+      "sha256": "082c22555459a21144380a32acfb787b22838048331144666ee868a85cbfa0a9",
+      "bytes": 4953
     },
     {
       "path": "tools/configure_mcp.py",

@@ -8,7 +8,7 @@ import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
 DIRS={'assets','.agents','.github','docs','evals','packaging','requirements','tests','tools'}
-FILES={'VERSION','.gitattributes','.gitignore','AGENTS.md','README.md','CODEX_START_HERE.md','Makefile','BP001_MANIFEST.json','LICENSE'}
+FILES={'VERSION','.gitattributes','SECURITY.md','.gitignore','AGENTS.md','README.md','CODEX_START_HERE.md','Makefile','BP001_MANIFEST.json','LICENSE'}
 SKIP={'__pycache__','.git','.venv','private','projects','outputs','work','.auth','node_modules'}
 
 
