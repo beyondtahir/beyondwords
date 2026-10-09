@@ -26,7 +26,7 @@ pydantic==2.13.5
 pydantic-core==2.46.5
 pyee==13.0.0
 pyjwt==2.15.1
-pypdf==6.10.0
+pypdf==6.19.0
 python-multipart==0.0.32
 pywin32==311
 referencing==0.37.0
