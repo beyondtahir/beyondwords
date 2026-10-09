@@ -13,7 +13,7 @@ Original Beyondwords code is MIT-licensed. The local store, command-line interfa
 | Pillow | 12.3.0 | MIT-CMU and binary notices | Image inspection and composition |
 | ReportLab | 4.4.9 | BSD-style | PDF production |
 | charset-normalizer | 3.5.1 | MIT | ReportLab dependency |
-| pypdf | 6.10.0 | BSD-3-Clause | PDF inspection |
+| pypdf | 6.19.0 | BSD-3-Clause | PDF inspection |
 | MCP Python SDK / mcp-types | 2.2.0 | MIT | Optional local tool protocol |
 | EPUBCheck | 5.4.0 | BSD-3-Clause and bundled notices | Optional independent EPUB validator |
 | Oswald / Playfair Display | Bundled font files | SIL OFL 1.1 | Typography; notices retained beside fonts |

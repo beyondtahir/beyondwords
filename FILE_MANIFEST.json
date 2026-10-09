@@ -663,7 +663,7 @@
     },
     {
       "path": "docs/DEPENDENCIES.md",
-      "sha256": "023dfd98693b5b0b0f6d11b786bf5b4789548296f445f085999550f81f07db3a",
+      "sha256": "927c481346163bff1c8efe637294d615e8d8a97c1c11b73ce96f16ee665d405b",
       "bytes": 3965
     },
     {
@@ -698,7 +698,7 @@
     },
     {
       "path": "requirements/dependency-metadata.json",
-      "sha256": "19e4d194880cc9f109f58dc8d80b025ae57d29fb9c33439b7d16dbef44bcbd36",
+      "sha256": "a5669b7a6eb5ed6bc55d0d8bee49ed6d8875fa8d525398060dba7bcd8b58a69d",
       "bytes": 1903
     },
     {
@@ -713,12 +713,12 @@
     },
     {
       "path": "requirements/optional.lock",
-      "sha256": "1e61ea112dd9ae0f56f3fd0f8379f2fa76c5501dd435a2dfc647288959502806",
+      "sha256": "16d462950de737c3f32d790ac9f7c685b047f1b9b5989252ef11d3d6352b4a3e",
       "bytes": 30325
     },
     {
       "path": "requirements/requirements.txt",
-      "sha256": "efc1526aea786c97af9583dec9c65c3e4b2bc29b18df6c95832d249fbd7bd6ed",
+      "sha256": "88a18b2c465a9527aa08a5f570c920cf03771f3fbb19de000702444441f3dbb1",
       "bytes": 916
     },
     {

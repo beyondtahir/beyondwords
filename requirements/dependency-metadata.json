@@ -49,10 +49,10 @@
   },
   {
     "name": "pypdf",
-    "version": "6.10.0",
+    "version": "6.19.0",
     "license": "BSD-3-Clause",
     "requires_python": ">=3.9",
-    "source": "https://pypi.org/project/pypdf/6.10.0/",
+    "source": "https://pypi.org/project/pypdf/6.19.0/",
     "dependencies": [
       "typing_extensions>=4.0; python_version < \"3.11\""
     ]
