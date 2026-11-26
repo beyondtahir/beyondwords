@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/beyondtahir/beyondwords/releases/tag/v1.1.0"><img alt="Release 1.1.0" src="https://img.shields.io/badge/release-1.1.0-1664FF?style=flat-square"></a>
+  <a href="https://github.com/beyondtahir/beyondwords/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/beyondtahir/beyondwords?color=1664FF&style=flat-square"></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-111111?style=flat-square"></a>
   <a href="docs/INSTALL.md"><img alt="Python 3.11 and newer" src="https://img.shields.io/badge/Python-3.11%2B-1664FF?style=flat-square"></a>
   <a href="https://github.com/beyondtahir/beyondwords/actions/workflows/package.yml"><img alt="Package checks" src="https://github.com/beyondtahir/beyondwords/actions/workflows/package.yml/badge.svg"></a>
@@ -194,7 +194,7 @@ Choose your host. Each guide includes the installation route, how to call the sk
 | **OpenClaw** | [Install the local skill folder](docs/INSTALL.md#openclaw) |
 | **Hermes Agent** | [Install the GitHub skill path](docs/INSTALL.md#hermes-agent) |
 
-**Downloads:** [Skill ZIP](https://github.com/beyondtahir/beyondwords/releases/download/v1.1.0/beyondwords-1.1.0-skill.zip) · [Complete source ZIP](https://github.com/beyondtahir/beyondwords/releases/download/v1.1.0/beyondwords-1.1.0-source.zip) · [Release and checksums](https://github.com/beyondtahir/beyondwords/releases/tag/v1.1.0)
+Download the skill ZIP or complete source ZIP from the [latest published release](https://github.com/beyondtahir/beyondwords/releases/latest). Check the version there when updating an existing installation.
 
 Prefer asking your assistant to help? Use this:
 

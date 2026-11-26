@@ -20,7 +20,7 @@ Read operations: `doctor`, `status`, `finance`. `goals` takes only `--input`. `e
 |---|---|---|
 | `init` | title, country, language, budget (decimal string), currency; optional synthetic boolean, default false | Fresh versioned book; never overwrites |
 | `enable` | synthetic boolean matching existing research, default false | Adds book workflow to a compatible existing project; preserves history |
-| `plan` | title, author, language tag, route, promise, reader, buyer, author_experience, voice, differentiation (strings), chapters | Versioned book specification |
+| `plan` | title, author, language tag, route, promise, reader, buyer, author_experience, voice, differentiation (nonempty array of nonempty strings), chapters | Versioned book specification |
 | `chapter` | id, body, rights_basis, provenance, change_summary; optional continuity object | Exact text revision linked to the current plan |
 | `source` | id, title, excerpt, origin, permission_basis, reviewed_by, observed_at, retain=true, derive=true, synthetic; URL except for author_notes | Minimal authorized evidence, preserved and hashed |
 | `claim` | id, chapter_id, quote, kind, finding, rationale, source_ids; reviewed_by when supported | Exact chapter/source links with stale detection |
@@ -29,7 +29,7 @@ Read operations: `doctor`, `status`, `finance`. `goals` takes only `--input`. `e
 | `edition` | id, format (epub/pdf/both), optional trim (default 6x9), cover_asset_id | Actual edition bytes plus validation evidence |
 | `launch` | description, author_bio, reader_offer, budget (decimal string), budget_currency, keywords (strings), actions | Versioned launch plan; no messages or ads sent |
 | `report-import` | See report schema below; includes file path | Original CSV plus normalized/reconciled rows |
-| `prepare` | id, channel, edition_ids, territories, rights_declaration, isbn_decision, exclusivity_decision, ai_disclosure, price, currency | Draft owner review package; never submits |
+| `prepare` | id, channel, edition_ids, territories (one nonempty string), rights_declaration, isbn_decision, exclusivity_decision, ai_disclosure, price, currency | Draft owner review package; never submits |
 | `outcome` | id, package_id, state, reported_by, receipt_reference, notes; reconciliation_reference after uncertain result | User-reported external state, never tool-verified success |
 
 Chapter contracts are objects with id, title, purpose and deliverable. IDs must be short safe identifiers, such as `opening`. Route: nonfiction, fiction, children, comics, workbook, coloring or puzzles. The last five have planning support but no dedicated bundled export engine. The text exporter rejects unsupported routes, tables, code fences and inline images rather than silently discarding layout.
@@ -45,6 +45,60 @@ Review role: author, editorial, reader, cover, visual, rights. Result: pass or c
 Launch actions: date (YYYY-MM-DD), task, channel, success_measure, stop_condition. Use actual book-specific copy; no customer testimonials without genuine authorized evidence.
 
 Package channel: kdp_ebook, kdp_paperback, lulu_print, lulu_ebook. Outcomes: submitted, uncertain, retailer_approved, listing_verified, rejected. Synthetic projects cannot record real outcomes. The owner supplies real receipts; local records are not external authorization.
+
+Complete `plan` and `prepare` inputs for a synthetic book, keyed by operation. The `print-v1` edition must already exist as a current (non-stale) edition with format `pdf`; the Word `docx` handoff is not a publication edition.
+
+```json
+{
+  "plan": {
+    "title": "Trail Notes for First-Time Hikers",
+    "author": "A. Walker",
+    "language": "en",
+    "route": "nonfiction",
+    "promise": "Plan and finish a safe first day hike in one weekend.",
+    "reader": "Adults new to hiking who want a simple, confidence-building start.",
+    "buyer": "The new hiker themselves, often buying alongside basic gear.",
+    "author_experience": "Synthetic example. Author experience has not been supplied.",
+    "voice": "Plain, encouraging, and safety-first.",
+    "differentiation": [
+      "Focuses only on day hikes, not multi-day backpacking.",
+      "Every chapter ends with a one-page checklist the reader can photograph."
+    ],
+    "chapters": [
+      {
+        "id": "opening",
+        "title": "Your First Trail",
+        "purpose": "Orient the reader and remove first-hike anxiety.",
+        "deliverable": "A short chapter that gets the reader to pick a real trail."
+      },
+      {
+        "id": "packing",
+        "title": "Pack the Day Bag",
+        "purpose": "Organize supplies for the chosen route.",
+        "deliverable": "A packing worksheet."
+      },
+      {
+        "id": "safety-basics",
+        "title": "Safety Basics",
+        "purpose": "Cover water, weather, and telling someone your plan.",
+        "deliverable": "A chapter with a printable safety checklist."
+      }
+    ]
+  },
+  "prepare": {
+    "id": "kdp-paperback-v1",
+    "channel": "kdp_paperback",
+    "edition_ids": ["print-v1"],
+    "territories": "All territories",
+    "rights_declaration": "Synthetic fixture only. The owner must confirm real rights before publication.",
+    "isbn_decision": "Use the free KDP-assigned ISBN for this paperback.",
+    "exclusivity_decision": "Print distribution only.",
+    "ai_disclosure": "Fixture text is AI-generated. The real edition needs its own disclosure.",
+    "price": "14.99",
+    "currency": "USD"
+  }
+}
+```
 
 ## Report schema
 
