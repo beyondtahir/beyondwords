@@ -6,11 +6,14 @@ Install the skill in your assistant, then check which tools it can use. The skil
 
 **Choose your host:** [ChatGPT Work](#chatgpt-work) · [Codex](#codex) · [Claude Cowork](#claude-cowork) · [Kimi Work](#kimi-work) · [OpenClaw](#openclaw) · [Hermes](#hermes-agent)
 
-**Downloads:** [Skill ZIP](https://github.com/beyondtahir/beyondwords/releases/download/v1.1.0/beyondwords-1.1.0-skill.zip) · [Source ZIP](https://github.com/beyondtahir/beyondwords/releases/download/v1.1.0/beyondwords-1.1.0-source.zip)
+Download the skill ZIP or complete source ZIP from the [latest published release](https://github.com/beyondtahir/beyondwords/releases/latest). Check the version there when updating an existing installation.
 
 The skill ZIP has one `beyondwords/` folder containing `SKILL.md`, scripts, references and assets. The source ZIP also includes setup tools, dependency locks, documentation and branding. Menu names and availability depend on your host version and workspace policy. These are documented installation routes, not a claim of completed acceptance testing in every host.
 
 ## ChatGPT Work
+
+**Compatibility under investigation.** A user reported that Work rejected the complete skill from commit `a4c1630` during upload. The service gave no file or rule and the issue closed without a recorded fix. If the scan rejects the package, record the release, exact error and host version for workspace support. A successful local package check verifies a different installation route. [Install report #12](https://github.com/beyondtahir/beyondwords/issues/12)
+
 
 Use the Work environment's **Skills or plugin installation controls**, if enabled for your account. Where archive imports are exposed, select **Customize → Skills → Create → Upload from your computer**, choose the skill ZIP and enable Beyondwords. The labels can vary by version.
 
@@ -53,7 +56,7 @@ Official guidance: [Skills and discovery](https://learn.chatgpt.com/docs/build-s
 
 1. Enable **Code execution and file creation** under Settings → Capabilities, if available and permitted.
 2. Open **Customize → Skills → + → Create skill → Upload a skill**.
-3. Upload `beyondwords-1.1.0-skill.zip` and enable the skill.
+3. Upload the downloaded skill ZIP and enable the skill.
 4. Start a new conversation or Cowork task. Ask: “Use Beyondwords as my publishing team,” then run the [first-run check](#first-run-check).
 
 Keep the ZIP intact with its single top-level skill folder. Do not upload the full source ZIP as the skill. Local file access, browser control, persistent storage and dependencies depend on the current session; the skill cannot create those permissions itself. Organization policy may restrict uploads or execution.
@@ -122,6 +125,10 @@ Do not publish, spend money or connect an account during this check.
 ```
 
 A useful result confirms the skill was loaded, identifies a private project location, distinguishes installed tools from verified connections and begins intake. If it only repeats the README, ask it to verify the actual skill registration and resource access.
+
+## Updating an existing installation
+
+Extract the new source to a fresh folder. Run the setup commands below from that folder to create its own runtime. Select the new project skill and runtime in your host, run `doctor`, and check that its version matches `VERSION`. For MCP, update the configured executable and script paths together. Open your existing private book workspace with the new runtime. Export revised chapters to a fresh destination and review the new files before replacing any approved publication files.
 
 ## Local runtime setup
 

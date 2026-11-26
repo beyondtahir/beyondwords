@@ -30,10 +30,10 @@
   },
   {
     "name": "Pillow",
-    "version": "12.3.0",
+    "version": "13.0.0",
     "license": "MIT-CMU",
-    "requires_python": ">=3.10",
-    "source": "https://pypi.org/project/Pillow/12.3.0/",
+    "requires_python": ">=3.11",
+    "source": "https://pypi.org/project/pillow/13.0.0/",
     "dependencies": []
   },
   {
@@ -49,10 +49,10 @@
   },
   {
     "name": "pypdf",
-    "version": "6.19.0",
+    "version": "6.21.4",
     "license": "BSD-3-Clause",
     "requires_python": ">=3.9",
-    "source": "https://pypi.org/project/pypdf/6.19.0/",
+    "source": "https://pypi.org/project/pypdf/6.21.4/",
     "dependencies": [
       "typing_extensions>=4.0; python_version < \"3.11\""
     ]

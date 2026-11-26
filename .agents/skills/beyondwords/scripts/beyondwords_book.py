@@ -17,7 +17,7 @@ import publishing_core as core
 import publishing_project as project
 
 Error = project.ProjectError
-VERSION = '1.1.0'
+VERSION = '1.1.1'
 CONTENT_KINDS = {'plan', 'chapter', 'source', 'claim', 'asset', 'bible', 'visual_layout'}
 ROUTES = {'nonfiction', 'fiction', 'children', 'comics', 'workbook', 'coloring', 'puzzles', 'art', 'activity'}
 PROVENANCE = {'human_authored', 'ai_assisted', 'ai_generated', 'unknown'}
@@ -267,7 +267,13 @@ class BookStore(project.Store):
             chapter = latest(book, 'chapter', contract['id'])
             if chapter is None:
                 fail('Missing chapter: ' + contract['id'], 'MISSING_CHAPTER')
-            sections.append('# ' + contract['title'] + '\n\n' + chapter['data']['body'])
+            title = contract['title']
+            body = chapter['data']['body']
+            # The plan owns the displayed chapter heading. Some drafts include it too.
+            first = re.match(r'(?:[ \t]*\r?\n)*# [ \t]*([^\r\n]*)(?:\r?\n|$)', body)
+            if first and first.group(1).strip() == title.strip():
+                body = body[first.end():].lstrip('\r\n')
+            sections.append('# ' + title + '\n\n' + body)
         return '\n\n'.join(sections) + '\n'
 
     def status(self, state=None):

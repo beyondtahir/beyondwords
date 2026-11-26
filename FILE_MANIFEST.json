@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "files": [
     {
       "path": ".agents/skills/beyondwords/LICENSE.txt",
@@ -348,8 +348,8 @@
     },
     {
       "path": ".agents/skills/beyondwords/references/12-complete-workflow.md",
-      "sha256": "78f90dfc73198e7c34693723f0b4fbf98d9ed6bfaa62dfa84067e70ad9dd42a7",
-      "bytes": 8141
+      "sha256": "0fe7323660b19c750138d2352d36976559eab5fc889990fde42ed39355bb90f1",
+      "bytes": 10331
     },
     {
       "path": ".agents/skills/beyondwords/references/13-editorial-production.md",
@@ -453,8 +453,8 @@
     },
     {
       "path": ".agents/skills/beyondwords/scripts/beyondwords_book.py",
-      "sha256": "60a3b610fc79f05635fa03fec1d0f26626e0301d2a16428b68ed90285eca723c",
-      "bytes": 33041
+      "sha256": "5cd62b3721cedac455e1e7b8a9f39f40231ff1474da3e5ccc9fbf867b505eefe",
+      "bytes": 33386
     },
     {
       "path": ".agents/skills/beyondwords/scripts/beyondwords_browser_handoff.py",
@@ -598,8 +598,8 @@
     },
     {
       "path": ".github/workflows/package.yml",
-      "sha256": "6bb84cd696ba16f9aacb92b98e5a8090d9f4ed7ea444b290b9f6e77c38244f6e",
-      "bytes": 673
+      "sha256": "de2f4fe50e5561ae28cdf64c2549e7001687a60a6533c8875e346492a93ec002",
+      "bytes": 966
     },
     {
       "path": ".gitignore",
@@ -618,8 +618,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "5dc452326652858132c01de5ad7f4c74aca039d844f3b0625a707b396a093b68",
-      "bytes": 19732
+      "sha256": "b33647ab6fe37dd1ea79518ced2a9e262601e1a76e824412b609e62075f5c873",
+      "bytes": 19625
     },
     {
       "path": "SECURITY.md",
@@ -628,7 +628,7 @@
     },
     {
       "path": "VERSION",
-      "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+      "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989",
       "bytes": 6
     },
     {
@@ -663,7 +663,7 @@
     },
     {
       "path": "docs/DEPENDENCIES.md",
-      "sha256": "927c481346163bff1c8efe637294d615e8d8a97c1c11b73ce96f16ee665d405b",
+      "sha256": "1f9a5cdea5dd5066c0fc40fcb95125dc288ab3c561c3565a9d48d4d866d77383",
       "bytes": 3965
     },
     {
@@ -673,13 +673,13 @@
     },
     {
       "path": "docs/INSTALL.md",
-      "sha256": "1e8d03713b8bb70466fca1668311bfbfca4c3d4cfeb42e07b9aa87bb02cec76c",
-      "bytes": 12083
+      "sha256": "e0d808bcd22973d4dacc8febf1dc2bf9fe67688e7291f0b7bf9afe380420f0b9",
+      "bytes": 13034
     },
     {
       "path": "docs/MCP_DEPENDENCIES.json",
-      "sha256": "04e3b8c242db7574ebc4a68d5271c1f258a4a61a8bf15d4337ef5ca28b606b56",
-      "bytes": 7204
+      "sha256": "be96914bac636f8d125f178586811b8e4d4bc0ac9619ca5c7c6ad9e1b49131fd",
+      "bytes": 7205
     },
     {
       "path": "docs/PRIVACY.md",
@@ -688,17 +688,17 @@
     },
     {
       "path": "docs/TECHNICAL.md",
-      "sha256": "2b07b6629ab13cef81d96bd10e626b05c2b8a02b4e920cf6aeb1cfb618244cf3",
-      "bytes": 8143
+      "sha256": "b0d04f8dd4461504b686a571f0d2a0bf668cdc816acfc4dba42ca6262f0cc72b",
+      "bytes": 9329
     },
     {
       "path": "packaging/plugin.json",
-      "sha256": "763a11beae40bb6c41b1bd66747805ef8e1e276303ad10e8ccf200b464a74a0a",
+      "sha256": "85839f8b323545ab230efe3fa434d61c3de904048799737d90fcf4e805b06f47",
       "bytes": 1048
     },
     {
       "path": "requirements/dependency-metadata.json",
-      "sha256": "a5669b7a6eb5ed6bc55d0d8bee49ed6d8875fa8d525398060dba7bcd8b58a69d",
+      "sha256": "c4d165f0965b6687653496c8dd770fda05abcc4cc5c8d566b21bb40003aa63e0",
       "bytes": 1903
     },
     {
@@ -708,17 +708,17 @@
     },
     {
       "path": "requirements/mcp.lock",
-      "sha256": "1ba254890c168a6221c1af0207724b2a978101aa3815188b1c9e0a57d26e83e7",
+      "sha256": "0d0095ea934857469251430e48eb9193475a09e5cdf35eb3942bda59757a362e",
       "bytes": 40291
     },
     {
       "path": "requirements/optional.lock",
-      "sha256": "16d462950de737c3f32d790ac9f7c685b047f1b9b5989252ef11d3d6352b4a3e",
-      "bytes": 30325
+      "sha256": "19f32f19d67fe0f5a0515343691dee9e4da2c977f39f69461f5603e7e07580af",
+      "bytes": 29985
     },
     {
       "path": "requirements/requirements.txt",
-      "sha256": "88a18b2c465a9527aa08a5f570c920cf03771f3fbb19de000702444441f3dbb1",
+      "sha256": "3495d8278a959084f660ecabac9dd22460b2d4fb7bf3c13d3b70f9c27a0212c2",
       "bytes": 916
     },
     {
@@ -730,6 +730,11 @@
       "path": "tools/build_release.py",
       "sha256": "d907fa283e8a3204342c3b58626efe0552a1651c5fcf8552a69ff956b8ca41d9",
       "bytes": 2792
+    },
+    {
+      "path": "tools/check_book_export.py",
+      "sha256": "237738216cf07a81a6794af7fcbf8d96c7b8e2645f992ce303494c3adae12ff7",
+      "bytes": 3441
     },
     {
       "path": "tools/check_public_package.py",
@@ -755,6 +760,11 @@
       "path": "tools/setup_runtime.py",
       "sha256": "5d5a067e37e09926cf41496990d3b252dde7a4f1f14b578779ca9d1cfab5b77c",
       "bytes": 1684
+    },
+    {
+      "path": "tools/update_dependency.py",
+      "sha256": "338baa535da069f353df4b05c955dfb15e2d91610d09506bd79b876213088f9f",
+      "bytes": 4525
     }
   ]
 }

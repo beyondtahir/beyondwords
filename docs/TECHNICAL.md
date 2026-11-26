@@ -102,7 +102,7 @@ python3 tools/check_public_package.py
 
 The checker verifies manifest paths, file sizes and hashes, Python syntax, portable skill metadata, a temporary isolated install, local `doctor` output and refusal to overwrite an existing installation. It does not use accounts, inference or market data. Temporary state is removed.
 
-The public workflow runs these checks on Linux, macOS and Windows with Python 3.12. Read the actual [Actions results](https://github.com/beyondtahir/beyondwords/actions/workflows/package.yml) for the current commit. This is package verification, not a claim that all host integrations or live accounts passed. Optional production/browser dependencies are not installed by that lightweight workflow.
+The public workflow runs these checks on Linux, macOS and Windows with Python 3.12. Read the actual [Actions results](https://github.com/beyondtahir/beyondwords/actions/workflows/package.yml) for the current commit. This is package verification, not a claim that all host integrations or live accounts passed. The workflow also installs the hash-pinned dependencies, runs `pip check`, and executes `python tools/check_book_export.py`. That check saves the documented plan, exports a synthetic book and verifies the chapter structure in PDF, EPUB and DOCX before checking the publishing-package example.
 
 For a reviewed derivative, `tools/build_release.py --destination NEW_DIRECTORY` rebuilds archives and their file manifest from the allowed source tree. Changes to release files require a fresh manifest before the package checker can pass. The builder refuses to overwrite a destination. Original code is MIT; keep third-party notices intact.
 
@@ -113,3 +113,9 @@ Add deterministic behavior in a focused Python module and route it through the e
 New dependencies should be justified, reviewed, pinned with hashes and documented. New connectors need explicit capability states, scoped authorization and uncertain-outcome handling. Host compatibility should be verified in the real environment before being advertised as tested.
 
 A tested local-inference setup, broader host/account acceptance and further specialist layout validation remain future work. The current interface is model-replaceable; it does not claim those validation tasks are already complete.
+
+## Updating a dependency
+
+Start from a clean branch of main. Run `python tools/update_dependency.py PACKAGE EXACT_VERSION` with the reviewed PyPI release. Inspect the changed runtime locks, every wheel/source digest, Python requirements, licenses, dependencies and advisory inventory. Review upstream release notes and update notices for any license or runtime change. Run the clean runtime installer with `--mcp` in a new directory. Use its Python for the export check and package checks.
+
+For the public source checkout, run `python tools/build_release.py --destination ../reviewed-release` after reviewing the files that will ship. Compare its FILE_MANIFEST.json with the tracked manifest, then copy the reviewed manifest back and run `python tools/check_public_package.py`. The canonical development build stages these files together. Merge after the three platform checks pass. Recheck the advisory list on main and supply new release archives for users of earlier downloads.
