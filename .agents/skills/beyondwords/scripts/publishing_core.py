@@ -6,6 +6,7 @@ source, prove legal clearance, estimate competitor sales, or publish books.
 """
 from __future__ import annotations
 
+from contextlib import closing
 import argparse
 import hashlib
 import importlib.util
@@ -325,7 +326,7 @@ def init_project(workspace: Path, title: str, country: str, language: str, budge
         (workspace / name).mkdir(mode=0o700)
     (workspace / "project.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     db = workspace / "evidence.sqlite3"
-    with sqlite3.connect(db) as connection:
+    with closing(sqlite3.connect(db)) as connection, connection:
         connection.executescript("""
         PRAGMA foreign_keys=ON;
         CREATE TABLE evidence (id TEXT PRIMARY KEY, payload TEXT NOT NULL, added_at TEXT NOT NULL);

@@ -558,8 +558,8 @@
     },
     {
       "path": ".agents/skills/beyondwords/scripts/publishing_core.py",
-      "sha256": "5cc0339de2dfc54dc528505529acb1fee051adbad1189fdefff5d65fa5d194a9",
-      "bytes": 26676
+      "sha256": "a41e3f3a3d0b14025b6bfc9be33c939538952e171078adf6767ac320e10efdc4",
+      "bytes": 26728
     },
     {
       "path": ".agents/skills/beyondwords/scripts/publishing_extract.py",
