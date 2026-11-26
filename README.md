@@ -275,6 +275,12 @@ Beyondwords itself is free to use. Your assistant, optional services, printing a
 
 Found a security problem? Use [Report a vulnerability](https://github.com/beyondtahir/beyondwords/security/advisories/new) to share it privately with the maintainer. The repository uses secret scanning, push protection, dependency alerts and CodeQL scanning alongside its package checks. Read the [security policy](SECURITY.md) for reporting details, supported releases and the boundaries of these protections. Automated scanning is not an independent security certification.
 
+## What changed in 1.1.1
+
+A draft that begins with its chapter title now exports with that title printed once. Existing projects pick up the fix when you generate a new edition. Windows users can create a book project without the staging database locking its folder. The runtime update includes security fixes for Pillow, pypdf and OpenTelemetry. Follow the [upgrade instructions](docs/INSTALL.md#updating-an-existing-installation) to use the new libraries.
+
+Linux, macOS and Windows now build and check a sample book in PDF, EPUB and Word. ChatGPT Work upload acceptance is still awaiting a workspace retest. [Changes and tests](https://github.com/beyondtahir/beyondwords/pull/14) · [Work install report](https://github.com/beyondtahir/beyondwords/issues/12) · [Published downloads](https://github.com/beyondtahir/beyondwords/releases/latest)
+
 ## Under the hood
 
 A portable skill orchestrates a **Python 3.11+ local toolkit**, a versioned project store and optional browser, production and account adapters. It includes source-evidence handling, manuscript history, artifact checks, action journals and report monitoring. Optional dependencies are pinned and documented.
@@ -289,6 +295,7 @@ There is no hosted Beyondwords backend and no bundled model. Persistent monitori
 | [Dependencies](docs/DEPENDENCIES.md) | Versions, licenses, optional components and notices |
 | [Privacy](docs/PRIVACY.md) | Private workspaces, accounts and cross-host memory |
 | [Security policy](SECURITY.md) | Private vulnerability reporting, protections and security boundaries |
+| [Contributors](docs/CONTRIBUTORS.md) | People, reports and reviews that helped improve Beyondwords |
 | [FAQ](docs/FAQ.md) | Costs, research, publishing, automation and support |
 
 ---
