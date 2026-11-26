@@ -733,8 +733,8 @@
     },
     {
       "path": "tools/check_book_export.py",
-      "sha256": "237738216cf07a81a6794af7fcbf8d96c7b8e2645f992ce303494c3adae12ff7",
-      "bytes": 3441
+      "sha256": "5851c681da42f1cdf945c41093e7c0b698d191f06c3422c6d9be950aa7155781",
+      "bytes": 3815
     },
     {
       "path": "tools/check_public_package.py",

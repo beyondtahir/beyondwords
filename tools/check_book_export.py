@@ -56,9 +56,14 @@ def check(root):
                 raise ValueError(f'Chapter heading or body mismatch in {title}')
     with zipfile.ZipFile(root/'word/review.docx') as word:
         doc = ET.fromstring(word.read('word/document.xml'))
-        links = doc.findall('.//{*}bookmarkStart')
-        if len(links) != len(pages):
-            raise ValueError('Word chapter count differs from the synthetic plan')
+        ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+        titles = []
+        for paragraph in doc.findall('.//w:p', ns):
+            if paragraph.find('w:pPr/w:pStyle[@w:val="Heading1"]', ns) is not None:
+                titles.append(''.join(node.text or '' for node in paragraph.findall('.//w:t', ns)))
+        expected = ['Synthetic demonstration'] + [chapter['title'] for chapter in chapters]
+        if titles != expected:
+            raise ValueError('Word chapter titles differ from the synthetic plan')
     print(f'Passed the documented plan and prepare inputs and {len(pages)}-section PDF, EPUB and DOCX exports.')
 
 
