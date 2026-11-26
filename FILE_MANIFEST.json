@@ -618,8 +618,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b33647ab6fe37dd1ea79518ced2a9e262601e1a76e824412b609e62075f5c873",
-      "bytes": 19625
+      "sha256": "0a00effe0229c327b34d86b46f5b4e8faab8dfb37267e5af5df686bcc5782512",
+      "bytes": 20575
     },
     {
       "path": "SECURITY.md",
@@ -660,6 +660,11 @@
       "path": "docs/CAPABILITIES.md",
       "sha256": "ce0ea2095a7b1d9381bb7ef6e96044604fda764e2ead7d8d70a7e17d641e00de",
       "bytes": 12352
+    },
+    {
+      "path": "docs/CONTRIBUTORS.md",
+      "sha256": "c93976248ae1589e10d941df02dd267bc6dcd5ba82fb3f327f516c3c2751e9bd",
+      "bytes": 1558
     },
     {
       "path": "docs/DEPENDENCIES.md",
