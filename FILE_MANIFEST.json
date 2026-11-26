@@ -673,8 +673,8 @@
     },
     {
       "path": "docs/INSTALL.md",
-      "sha256": "e0d808bcd22973d4dacc8febf1dc2bf9fe67688e7291f0b7bf9afe380420f0b9",
-      "bytes": 13034
+      "sha256": "d6dbecbbc7b13ba48890e83ad4765e5cc529a6f42e269f7180c78dc260e5900e",
+      "bytes": 13100
     },
     {
       "path": "docs/MCP_DEPENDENCIES.json",

@@ -15,7 +15,7 @@ The skill ZIP has one `beyondwords/` folder containing `SKILL.md`, scripts, refe
 **Compatibility under investigation.** A user reported that Work rejected the complete skill from commit `a4c1630` during upload. The service gave no file or rule and the issue closed without a recorded fix. If the scan rejects the package, record the release, exact error and host version for workspace support. A successful local package check verifies a different installation route. [Install report #12](https://github.com/beyondtahir/beyondwords/issues/12)
 
 
-Use the Work environment's **Skills or plugin installation controls**, if enabled for your account. Where archive imports are exposed, select **Customize → Skills → Create → Upload from your computer**, choose the skill ZIP and enable Beyondwords. The labels can vary by version.
+In an eligible workspace, open **Plugins**, choose **Skills**, then **Create** and **Upload from your computer**. Choose the complete skill ZIP and check the scan result. If uploading is unavailable, check your workspace’s skill permissions. [OpenAI’s skill upload and scan guidance](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)
 
 If your interface offers plugin creation or repository import instead, supply:
 
